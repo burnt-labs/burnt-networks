@@ -1,0 +1,13 @@
+{
+  "messages": [
+    {
+      "@type": "/ibc.core.client.v1.ClientUpdateProposal",
+      "title": "Update IBC client 07-tendermint-14",
+      "description": "xion-testnet-1 <=> osmo-test-5",
+      "subject_client_id": "07-tendermint-13",
+      "substitute_client_id": "07-tendermint-14"
+    }
+  ],
+  "metadata": "https://files.xion-testnet-1.burnt.com/gov/ibc-client-updates/07-tendermint-14.json",
+  "deposit": "10000000uxion"
+}

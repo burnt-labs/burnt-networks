@@ -1,0 +1,10 @@
+{
+  "title": "Software upgrade v0.3.2",
+  "authors": [
+    "daemon@burnt.com"
+  ],
+  "summary": "Software upgrade v0.3.2",
+  "details": "Upgrade to v0.3.2 at block height 1929544; xiond:sha-455cfa5",
+  "proposal_forum_url": "",
+  "vote_option_context": ""
+}

@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+      "authority": "xion10d07y265gmmuvt4z0w9aw880jnsr700jctf8qc",
+      "plan": {
+        "name": "v2",
+        "height": "1929544",
+        "info": "xiond:sha-455cfa5",
+        "upgraded_client_state": null
+      }
+    }
+  ],
+  "metadata": "https://files.xion-testnet-1.burnt.com/gov/upgrades/v0.3.2.json",
+  "deposit": "10000000uxion",
+  "title": "Software upgrade v0.3.2",
+  "summary": "Software upgrade v0.3.2"
+}
