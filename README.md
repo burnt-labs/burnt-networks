@@ -2,7 +2,9 @@
 
 # burnt-networks
 
- Reference config for all Burnt networks
+Reference config for all Burnt networks.
+
+Please refer to the [official documentation](https://docs.burnt.com) for more details.
 
 ## Mainnet
 
