@@ -1,0 +1,10 @@
+{
+  "title": "Increase x/abstractaccount max-gas to 5M",
+  "authors": [
+    "daemon@burnt.com"
+  ],
+  "summary": "Increase x/abstractaccount max-gas to 5M",
+  "details": "Increase x/abstractaccount max-gas to 5M",
+  "proposal_forum_url": "",
+  "vote_option_context": ""
+}
