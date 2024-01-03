@@ -1,0 +1,19 @@
+{
+  "messages": [
+    {
+      "@type": "/cosmos.slashing.v1beta1.MsgUpdateParams",
+      "authority": "xion10d07y265gmmuvt4z0w9aw880jnsr700jctf8qc",
+      "params": {
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.250000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      }
+    }
+  ],
+  "metadata": "https://files.xion-testnet-1.burnt.com/gov/update-parameters/002-slashing-relax-blocks-threshold.json",
+  "deposit": "10000000uxion",
+  "title": "Relax x/slashing missed blocks threshold",
+  "summary": "Relax x/slashing missed blocks threshold"
+}
