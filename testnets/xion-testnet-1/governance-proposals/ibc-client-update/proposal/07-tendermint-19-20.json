@@ -8,6 +8,6 @@
       "substitute_client_id": "07-tendermint-20"
     }
   ],
-  "metadata": "https://files.xion-testnet-1.burnt.com/gov/ibc-client-updates/07-tendermint-14.json",
+  "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/testnets/xion-testnet-1/governance-proposals/ibc-client-updates/metadata/07-tendermint-14.json",
   "deposit": "10000000uxion"
 }

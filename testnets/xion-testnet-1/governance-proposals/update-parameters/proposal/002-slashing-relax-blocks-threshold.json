@@ -12,7 +12,7 @@
       }
     }
   ],
-  "metadata": "https://files.xion-testnet-1.burnt.com/gov/update-parameters/002-slashing-relax-blocks-threshold.json",
+  "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/testnets/xion-testnet-1/governance-proposals/update-parameters/metadata/002-slashing-relax-blocks-threshold.json",
   "deposit": "10000000uxion",
   "title": "Relax x/slashing missed blocks threshold",
   "summary": "Relax x/slashing missed blocks threshold"
