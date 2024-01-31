@@ -22,7 +22,7 @@
       }
     }
   ],
-  "metadata": "https://files.xion-testnet-1.burnt.com/gov/update-parameters/000-gov-reduce-voting-period.json",
+  "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/testnets/xion-testnet-1/governance-proposals/update-parameters/metadata/000-gov-reduce-voting-period.json",
   "deposit": "10000000uxion",
   "title": "Reduce x/gov voting period to 1hr",
   "summary": "Reduce x/gov voting period to 1hr"

@@ -11,7 +11,7 @@
       }
     }
   ],
-  "metadata": "https://files.xion-testnet-1.burnt.com/gov/update-parameters/001-abstract-account-increase-max-gas.json",
+  "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/testnets/xion-testnet-1/governance-proposals/update-parameters/metadata/001-abstract-account-increase-max-gas.json",
   "deposit": "10000000uxion",
   "title": "Increase x/abstractaccount max-gas to 5M",
   "summary": "Increase x/abstractaccount max-gas to 5M"
