@@ -25,7 +25,7 @@ The zeroth block of a Cosmos chain is represented by its `genesis.json` file. It
 
 To validate any genesis file in this repo:
 
-1. Configure the bind mounts in `docker-comose.yaml`
+1. Configure the bind mounts in `docker-compose.yaml`
 2. Run the following command:
 ```bash
 docker compose up validate-genesis
