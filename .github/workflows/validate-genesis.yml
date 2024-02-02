@@ -1,0 +1,24 @@
+---
+name: Validate Genesis
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+
+  build:
+    name: Validate Genesis
+    runs-on: ubuntu-latest
+    environment: CI
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Validate genesis files
+        shell: bash
+        run: |
+          docker compose up validate-genesis
