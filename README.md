@@ -13,7 +13,7 @@ Please refer to the [official documentation](https://docs.burnt.com) for more de
 ## Testnets
 
 - [xion-testnet-1](./testnets/xion-testnet-1/)
-
+- [xion-rehearsal-1](./testnets/xion-rehearsal-1/)
 
 ## Genesis Tooling
 
