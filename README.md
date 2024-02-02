@@ -17,7 +17,7 @@ Please refer to the [official documentation](https://docs.burnt.com) for more de
 
 ## Genesis Tooling
 
-We are automating our lead-up to genesis, ut of an abundance of transparency and caution.
+We are automating our lead-up to mainnet genesis, out of an abundance of transparency and caution.
 
 ### Validating the genesis file
 
