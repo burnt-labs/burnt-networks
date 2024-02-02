@@ -70,6 +70,9 @@
         }
       ]
     },
+    "abstractaccount": {
+      "accounts": []
+    },
     "authz": {
       "authorization": []
     },
@@ -200,6 +203,7 @@
     "evidence": {
       "evidence": []
     },
+    "feeabs": {},
     "feegrant": {
       "allowances": []
     },
@@ -571,6 +575,15 @@
       "entries": []
     },
     "params": null,
+    "packetforwardmiddleware": {
+        "next_sequence": "0",
+        "ack_sequences": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "channels": []
+    },
     "slashing": {
       "params": {
         "signed_blocks_window": "1000",
@@ -613,7 +626,6 @@
       "params": {
         "code_upload_access": {
           "permission": "Everybody",
-          "address": "",
           "addresses": []
         },
         "instantiate_default_permission": "Everybody"
@@ -621,6 +633,7 @@
       "codes": [],
       "contracts": [],
       "sequences": []
-    }
+    },
+    "xion": {}
   }
 }
