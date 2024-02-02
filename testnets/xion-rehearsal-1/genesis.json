@@ -286,7 +286,7 @@
     "staking": {
       "delegations": [],
       "exported": false,
-      "last_total_power": 0,
+      "last_total_power": "0",
       "last_validator_powers": [],
       "params": {
         "bond_denom": "uxion",
@@ -317,7 +317,6 @@
       "params": {
         "code_upload_access": {
           "permission": "Everybody",
-          "address": "",
           "addresses": []
         },
         "instantiate_default_permission": "Everybody"
