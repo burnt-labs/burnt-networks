@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+
+  validate-genesis:
+    image: burntnetwork/xion:0.3.4
+    platform: linux/amd64
+    command:
+      - /tmp/scripts/validate-genesis.sh
+    volumes:
+      - ./.docker:/tmp/scripts
+      - ./testnets/xion-rehearsal-1:/tmp/testnet
