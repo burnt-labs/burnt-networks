@@ -1,10 +1,12 @@
-# so-you-want-to-launch-a-mainnet-playbook
+![Burnt banner](https://files.xion-testnet-1.burnt.com/banner.jpg)
+![Strangelove banner](https://files.xion-testnet-1.burnt.com/strangelove.png)
 
----
-name: Playbook for launching to Mainnet
----
+# "So You Want To Launch A Mainnet?"
 
-# "So You Want To Launch A Mainnet?" Playbook, v0.2
+## Authors
+- [Burnt Labs](https://burnt.com)
+- [Strangelove Ventures](https://strange.love)
+
 
 O. Meta
 ---------------------------------
@@ -15,59 +17,42 @@ O. Meta
 - 🍊 Engineering
 - 🩶 Partnerships
 
-### TODOS
-- what's the best way to use this information? Turn this doc into a...
-  - book format?
-  - tracking spreadsheet?
-  - backlog?
-- [JPB] ensure Dan{K,B} are in shared slack
-- [ ] pass a copy of this along
-
-I. Prepare
+I. The Road to Mainnet
 ---------------------------------
 
 0. 🍏 Testnet is running
-  - you should'a learned something, right?
-  ### Three things that surprised me about Testnet
-  1.________
-  2.________
-  3.________
+   - 🍊 [ ] Ensure the testnet has running smoothly for some time.
+   - 🍊 [ ] Ensure the testnet has been upgraded at least once.
+   - 🍊 [ ] Ensure the testnet has been attacked at least once.
+   - 🍊 [ ] Ensure the testnet has been crashed at least once.
+   - 🍊 [ ] The lessons learned on testnet will help you (maybe?) avoid crashing mainnet.
 
-1. 🍊 [ ] Ship the $MAINNET binary. It's fully-tested, right?
-    - 🍊 [ ] write [interchaintest][] e2e tests like your life depends on it (it does).
-  - oh, it isn't?
-2. 🍊 [ ] Create the `networks` Repository
-  - Create a network repository akin to [StrangeLove-Ventures/Noble-Networks][].
-  - This repository will be used for Genesis Transaction (gentx) collection, histl gen storage, and any other custom bootstrapping data. The [Cosmos Mainnet Repo][] and [OSMO Networks][] are also good examples. Include a `testnets` folder and a `mainnet`.
+1. 🍏 Unit and Integration testing
+   - 🍊 [ ] Ship the $MAINNET binary. It's fully-tested, right?
+   - 🍊 [ ] Write [interchaintest](https://github.com/strangelove-ventures/interchaintest) unit / integration tests for your network.
+   - 🍊 [ ] Run the interchaintest in CI. It's passing, right?
 
-  - DanB Q: multisig?
-    - Stride has cool scripts for making multisig easy for participants
+2. 🍏 Network Reference Documentation
+   - 🍊 [ ] Create a `networks` Repository (this repo)
+   - 🍊 [ ] Ensure all configuration about the network is available.
+   - 🍊 [ ] Build some tooling to lower the cognitive load on launch day.
 
-3. Validator Criteria Definition
+3. 🩶 Communicate with your Validators early and often
+   - 🩶 [ ] Define and document the criteria for validator participation.
+   - 🩶 [ ] Communicate these criteria clearly to potential validators.
+   - 🩶 [ ] Choose wisely. The network is only as secure as its laziest validators.
+   - 🩶 [ ] Define the initial stake with your Validator partnerships.
 
-- 🩶 [ ] Define and document the criteria for validator (val) participation.
-- 🩶 [ ] Communicate these criteria clearly to potential validators.
+4. 🍊 Run some Dress Rehearsals internally
+   - 🍊 [ ] Ensure anyone who's interested knows how to run a node.
+   - 🍊 [ ] Ensure everyone knows how to monitor the network.
 
-4. Gather key network launch details, memorialize in genesis file
-  - 🍊 [ ] Create `genesis.json` (in `networks` repo) containing cap table (ie all the addresses w/ tokens and amounts)
-  - 🩶 this requires reaching out to investors to get data
-  * 🍏 takes 2-4 weeks
-  - get data
-  - map it
-  - memorialize it in `.json`
-
-  - Q: DanB: How did you select vals?
-    - 🍊 [ ] play around w/ config to optimize performance: wasm size, timeout, mempool, etc.
-      - [DanB] gather some things we've tried and shared them
-
-  🍏 NB: MANY founders get wrapped up in this. Everybody gets excited, but doesn't actually put pen to paper until a very late hour...and then it's a Fire Drill.
-
-  - need this for validators
-  - Validators all need some number of tokens to get started.
-  - 🩶 meet w/ Vals about setting params (mint module, staking module)
-    - these can be changed by governance, but *now* is the time when you can do it easily. Everything else is downstream.
-    - 🩶🍊 [ ] start w/ sane defaults
-
+4. 🍏 Build out a tentative Genesis file
+  - 🍊 [ ] Export the config of your strongest surviving testnet
+  - 🍊 [ ] Create a `genesis.json` file from the testnet's state, resetting all counters to zero.
+  - 🍊 [ ] Practice collecting gentx's from team members.
+  - 🍊 [ ] Build the final `genesis.json` by running `collect-gentx`.
+  - 🍊 [ ] Ensure the `genesis.json` is valid and can be validated by a third party.
 
 
 II. Onboard the Validators
