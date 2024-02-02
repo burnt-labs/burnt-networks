@@ -21,79 +21,83 @@ I. The Road to Mainnet
 ---------------------------------
 
 0. 🍏 Testnet is running
-   - 🍊 [ ] Ensure the testnet has running smoothly for some time.
-   - 🍊 [ ] Ensure the testnet has been upgraded at least once.
-   - 🍊 [ ] Ensure the testnet has been attacked at least once.
-   - 🍊 [ ] Ensure the testnet has been crashed at least once.
-   - 🍊 [ ] The lessons learned on testnet will help you (maybe?) avoid crashing mainnet.
+   - 🍊 [ ] Ensure the testnet has been running smoothly for some time.
+   - 🍊 [ ] Ensure the testnet has been upgraded at least once, preferably several times.
+   - 🍊 [ ] Ensure the testnet has been attacked at least once, hopefully by a friendly party.
+   - 🍊 [ ] Ensure the testnet has been crashed at least once, whether intentionally or not.
+   - 🍊 [ ] The lessons learned on testnet will help you (maybe?) mitigate a bad time on mainnet.
 
 1. 🍏 Unit and Integration testing
    - 🍊 [ ] Ship the $MAINNET binary. It's fully-tested, right?
    - 🍊 [ ] Write [interchaintest](https://github.com/strangelove-ventures/interchaintest) unit / integration tests for your network.
    - 🍊 [ ] Run the interchaintest in CI. It's passing, right?
+   - 🍊 [ ] Avoid shipping features just before mainnet launch. It's a bad time to introduce new bugs.
 
 2. 🍏 Network Reference Documentation
    - 🍊 [ ] Create a `networks` Repository (this repo)
-   - 🍊 [ ] Ensure all configuration about the network is available.
+   - 🍊 [ ] Ensure all configuration about the network is readily available.
    - 🍊 [ ] Build some tooling to lower the cognitive load on launch day.
 
 3. 🩶 Communicate with your Validators early and often
    - 🩶 [ ] Define and document the criteria for validator participation.
    - 🩶 [ ] Communicate these criteria clearly to potential validators.
-   - 🩶 [ ] Choose wisely. The network is only as secure as its laziest validators.
+   - 🩶 [ ] Choose wisely. The network security is commensurate with validator quality.
    - 🩶 [ ] Define the initial stake with your Validator partnerships.
+   - 🩶 [ ] Establish well known communication channels; Discord, Telegram, etc.
+   - 🩶 [ ] We recommended keeping external comms on a separate medium from external comms.
 
 4. 🍊 Run some Dress Rehearsals internally
    - 🍊 [ ] Ensure anyone who's interested knows how to run a node.
+   - 🍊 [ ] Bully the folks who aren't interested into submission.
    - 🍊 [ ] Ensure everyone knows how to monitor the network.
+   - 🍊 [ ] Help everyone understand the node operator game.
 
 4. 🍏 Build out a tentative Genesis file
-  - 🍊 [ ] Export the config of your strongest surviving testnet
-  - 🍊 [ ] Create a `genesis.json` file from the testnet's state, resetting all counters to zero.
-  - 🍊 [ ] Practice collecting gentx's from team members.
-  - 🍊 [ ] Build the final `genesis.json` by running `collect-gentx`.
-  - 🍊 [ ] Ensure the `genesis.json` is valid and can be validated by a third party.
+   - 🍊 [ ] Export the config of your strongest surviving testnet
+   - 🍊 [ ] Create a `genesis.json` file from the testnet's state, resetting all counters to zero.
+   - 🍊 [ ] Practice collecting gentx's from team members.
+   - 🍊 [ ] Build a valid `genesis.json` by running `collect-gentx`.
+   - 🍊 [ ] Ensure the `genesis.json` is valid and can be validated by a third party.
+   - 🍊 [ ] Automate the `collect-gentx` process and run it in CI.
+   - 🍊 [ ] Automate the genesis validation and run it in CI.
 
 
 II. Onboard the Validators
 ---------------------------------
 
 1. Genesis Transaction Submission
+    - 🍊 [ ] Create a `gentx` directory in the network repository.
+    - 🩶 [ ] Agree on a process for submitting `gentx`'s, such that you are sure submissions come from the right people.
+    - 🩶 [ ] Anticipate unauthorized validators trying to sneak into the genesis block.
+    - 🍊 [ ] Require that all commits to the `network` repo (this repo) are `Verified`.
+    - 🍊 [ ] Adapt the previous automation of `collect-gentx`, adding checks for Validator authenticity. 
+    - 🩶 [ ] Sync with each validator and have them commit their `MsgCreateValidator` transaction to the `gentx` directory.
+    - 🍊 [ ] Ensure each PR includes a `memo` with a valid p2p ID for block 1.
+    - 🩶 [ ] Ensure all parties know that once submitted, a `gentx` MUST NOT change. Its signature will be different, and the network will reject it.
+    - 🍊 [ ] Build a candidate `genesis.json` once all expected `gentx` have been submitted.
 
-- 🍊 [ ] create GH action to mount repo, run `collectGentx`, fail PRs that aren't right
-- 🍊 [ ] structure repos so that you can run `collectGentx` (from the binary) on each PR to ensure that only valid gentx's are getting merged
-- 🩶 [ ] Instruct each validator to submit a Pull Request (PR) to the repository with their `MsgCreateValidator` transaction.
-- 🍊 [ ] Ensure each PR includes a memo with a valid p2p ID for block 1.
-- NB: many legit val's `gentx`'s weren't valid bc e.g. they signed, changed moniker, and resubmitted (w/ a sig that no longer passed validation)
-
-2. PR Review and Verification
-
-- 🩶 Anticipate unauthorized vals submitting gentx.
-- 🩶 Confirm validator identity through a trusted communication channel before accepting their PR.
 
 III. Configure & Distribute the Genesis File
 ---------------------------------
 
 1. Testing Genesis file
-
-- 🍊 [ ] Create a temporary genesis file.
-- 🍊 [ ] Retain only one validator that you control, update the start time, and test chain start and indexing.
+   - 🍊 [ ] Create a temporary genesis file.
+   - 🍊 [ ] Retain only one validator that you control, update the start time, and test chain start and indexing.
 
 2. Finalize Genesis File
+   - 🍊 [ ] Spin up a network which spoofs all validators to see if anything breaks.
+   - 🍊 [ ] Once testing is successful, publish the final `genesis.json`.
+   - 🩶 [ ] Distribute this file to all validators. Avoid changes unless absolutely necessary; think panic on boot.
+   - 🍊 [ ] Add multiple hashes of the genesis file into the `network` repo
+   - 🍊 [ ] Provide instructions on how to verify the genesis file using the hashes.
+   - 🩶 [ ] Obtain third-party confirmation that the verification of the genesis hash is successful.
 
-- 🍊 [ ] Spin up a network which spoofs all validators to see if anything breaks.
-- 🍊 [ ] Once testing is successful, publish the final `genesis.json`.
-- 🩶 [ ] Distribute this file to all validators. Avoid changes unless absolutely necessary.
-- 🍊 [ ] put hash of genesis file into repo
-- 🩶 [ ] get outside verification that it's right (foreign verifiers should get same SHA256 that we get)
-
-- 🍊 interchaintest is helpful for this stuff 👆, esp w/ upgrades
-
-3. Spin up seed nodes
-  - 🍊 [ ] spin them up
-  - 🩶 [ ] ask some vals to spin up non-validator nodes too
-  - 🫐 [ ] create a Persistant Peers (& Seeds) manifest. Validators can add to this list via gDoc or some other controlled thing. Ship it close to wartime.
-  - 🩶 [ ] create a War Room (discord, TG, etc.) where this is coordinated.
+3. Spin up Seed nodes
+  - 🍊 [ ] Spin up fullnodes with the `seed` flag turned on. These are your peer-discovery nodes.
+  - 🍊 [ ] An great alternative with less overhead is [tenderseed](https://github.com/binaryholdings/tenderseed).
+  - 🩶 [ ] Ask for some of the Validators to also spin up external nodes and join the network.
+  - 🫐 [ ] Create a Persistent Peers and Seeds rolodex (in this repo).
+  - 🩶 [ ] Create a War Room on your pre-establised communication channels for game time.
 
   - 🍊 Important for Seed Nodes:
     - official team should run a node
