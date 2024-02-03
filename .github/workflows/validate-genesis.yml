@@ -21,4 +21,4 @@ jobs:
       - name: Validate genesis file
         shell: bash
         run: |
-          docker compose up --exit-code-from validate-genesis
+          docker compose up validate-genesis --exit-code-from validate-genesis

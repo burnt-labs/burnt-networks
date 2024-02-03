@@ -21,4 +21,4 @@ jobs:
       - name: Verify genesis hashes
         shell: bash
         run: |
-          docker compose up --exit-code-from verify-hashes
+          docker compose up verify-hashes --exit-code-from verify-hashes
