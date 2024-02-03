@@ -8,6 +8,11 @@
 - [Strangelove Ventures](https://strange.love)
 
 
+## Synopsis
+
+This plan aims to cover all crucial aspects of a successful blockchain network launch, balancing technical precision with effective communication and community engagement.
+
+
 O. Meta
 ---------------------------------
 
@@ -16,6 +21,7 @@ O. Meta
 - 🫐 [Public-facing] Communications
 - 🍊 Engineering
 - 🩶 Partnerships
+
 
 I. The Road to Mainnet
 ---------------------------------
@@ -27,18 +33,27 @@ I. The Road to Mainnet
    - 🍊 [ ] Ensure the testnet has been crashed at least once, whether intentionally or not.
    - 🍊 [ ] The lessons learned on testnet will help you (maybe?) mitigate a bad time on mainnet.
 
-1. 🍏 Unit and Integration testing
+1. 🍊 Unit and Integration testing
    - 🍊 [ ] Ship the $MAINNET binary. It's fully-tested, right?
    - 🍊 [ ] Write [interchaintest](https://github.com/strangelove-ventures/interchaintest) unit / integration tests for your network.
    - 🍊 [ ] Run the interchaintest in CI. It's passing, right?
    - 🍊 [ ] Avoid shipping features just before mainnet launch. It's a bad time to introduce new bugs.
 
-2. 🍏 Network Reference Documentation
-   - 🍊 [ ] Create a `networks` Repository (this repo)
+2. 🍊 Network Reference Documentation
+   - 🍊 [ ] Create a `networks` repository (this repo)
    - 🍊 [ ] Ensure all configuration about the network is readily available.
    - 🍊 [ ] Build some tooling to lower the cognitive load on launch day.
 
-3. 🩶 Communicate with your Validators early and often
+3. 🫐 Protocol documentation
+   - 🔥 [ ] Example: https://docs.burnt.com
+   - 🫐 [ ] Ship protocol documentation
+   - 🫐 [ ] Ship network documentation
+   - 🫐 [ ] Ship onboarding documentation
+   - 🫐 [ ] Ensure to highlight any nonstandard requirements (e.g., BLS information).
+   - 🫐 [ ] Update documentation as the network evolves.
+
+4. 🩶 Communicate with your Validators early and often
+   - 🩶 [ ] Set up dedicated channels for validator chat and announcements.
    - 🩶 [ ] Define and document the criteria for validator participation.
    - 🩶 [ ] Communicate these criteria clearly to potential validators.
    - 🩶 [ ] Choose wisely. The network security is commensurate with validator quality.
@@ -46,13 +61,7 @@ I. The Road to Mainnet
    - 🩶 [ ] Establish well known communication channels; Discord, Telegram, etc.
    - 🩶 [ ] We recommended keeping internal team comms on a separate medium from external comms.
 
-4. 🍊 Run some Dress Rehearsals internally
-   - 🍊 [ ] Ensure anyone who's interested knows how to run a node.
-   - 🍊 [ ] Bully the folks who aren't interested into submission.
-   - 🍊 [ ] Ensure everyone knows how to monitor the network.
-   - 🍊 [ ] Help everyone understand the node operator game.
-
-4. 🍏 Build out a tentative Genesis file
+5. 🍊 Build out a tentative Genesis file
    - 🍊 [ ] Export the config of your strongest surviving testnet
    - 🍊 [ ] Create a `genesis.json` file from the testnet's state, resetting all counters to zero.
    - 🍊 [ ] Practice collecting gentx's from team members.
@@ -65,120 +74,171 @@ I. The Road to Mainnet
 II. Onboard the Validators
 ---------------------------------
 
-1. Genesis Transaction Submission
-    - 🍊 [ ] Create a `gentx` directory in the network repository.
-    - 🩶 [ ] Agree on a process for submitting `gentx`'s, such that you are sure submissions come from the right people.
-    - 🩶 [ ] Anticipate unauthorized validators trying to sneak into the genesis block.
-    - 🍊 [ ] Require that all commits to the `network` repo (this repo) are `Verified`.
-    - 🍊 [ ] Adapt the previous automation of `collect-gentx`, adding checks for Validator authenticity. 
-    - 🩶 [ ] Sync with each validator and have them commit their `MsgCreateValidator` transaction to the `gentx` directory.
-    - 🍊 [ ] Ensure each PR includes a `memo` with a valid p2p ID for block 1.
-    - 🩶 [ ] Ensure all parties know that once submitted, a `gentx` MUST NOT change. Its signature will be different, and the network will reject it.
-    - 🍊 [ ] Build a candidate `genesis.json` once all expected `gentx` have been submitted.
+1. 🍏 Genesis Transaction Submission
+   - 🍊 [ ] Create a `gentx` directory in the `networks` repository.
+   - 🩶 [ ] Agree on a process for submitting `gentx`'s, such that you are sure submissions come from the right people.
+   - 🩶 [ ] Anticipate unauthorized validators trying to sneak into the genesis block.
+   - 🍊 [ ] Require that all commits to the `networks` repo are `Verified`.
+   - 🍊 [ ] Adapt the previous automation of `collect-gentx`, adding checks for Validator authenticity.
+   - 🩶 [ ] Sync with each validator and have them commit their `MsgCreateValidator` transaction to the `gentx` directory.
+   - 🍊 [ ] Ensure each PR includes a `memo` with a valid p2p ID for block 1.
+   - 🩶 [ ] Ensure all parties know that once submitted, a `gentx` MUST NOT change. 
+     - Its signature will be different, and the network will reject it.
+   - 🍊 [ ] Build a candidate `genesis.json` once all expected `gentx` have been submitted.
 
 
 III. Configure & Distribute the Genesis File
 ---------------------------------
 
-1. Testing Genesis file
-   - 🍊 [ ] Create a temporary genesis file.
-   - 🍊 [ ] Retain only one validator that you control, update the start time, and test chain start and indexing.
+1. 🍊 Testing Genesis file
+   - 🍊 [ ] Upate your candidate `genesis.json` and retain only one validator under your control.
+   - 🍊 [ ] Update the start time, and test chain start and indexing.
 
-2. Finalize Genesis File
+2. 🍏 Finalize Genesis File
    - 🍊 [ ] Spin up a network which spoofs all validators to see if anything breaks.
-   - 🍊 [ ] Once testing is successful, publish the final `genesis.json`.
-   - 🩶 [ ] Distribute this file to all validators. Avoid changes unless absolutely necessary; think panic on boot.
-   - 🍊 [ ] Add multiple hashes of the genesis file into the `network` repo
+   - 🍊 [ ] Once testing is successful, publish the final `genesis.json` (in this repo).
+   - 🩶 [ ] Distribute this file to all validators. **Avoid changes unless absolutely necessary**; think panic on boot.
+   - 🍊 [ ] Add multiple checksum hashes of the genesis file into the `networks` repo.
    - 🍊 [ ] Provide instructions on how to verify the genesis file using the hashes.
    - 🩶 [ ] Obtain third-party confirmation that the verification of the genesis hash is successful.
 
-3. Spin up Seed nodes
-  - 🍊 [ ] Spin up fullnodes with the `seed` flag turned on. These are your peer-discovery nodes.
-  - 🍊 [ ] An great alternative with less overhead is [tenderseed](https://github.com/binaryholdings/tenderseed).
-  - 🩶 [ ] Ask for some of the Validators to also spin up external nodes and join the network.
-  - 🫐 [ ] Create a Persistent Peers and Seeds rolodex (in this repo).
-  - 🩶 [ ] Create a War Room on your pre-establised communication channels for game time.
 
-  - 🍊 Important for Seed Nodes:
-    - official team should run a node
-    - TenderSeed is a nice piece of kit
-      - always listening, can validate healthy endpoints
-
-🍏 NB: Allow a minimum of 3 days for validators to prepare their infrastructure based on the genesis file.
-  - Vals are busy and you're likely not their #1 priority
-  - they may do setup in advance
-  - late-breaking `genesis.json` changes may not reach some folks
-  - if you DO have to change, be noisy about it
-  - make it easy for them to succeed
-
-
-IV. Communication and Support
+IV. Dress Rehearsal rundown
 ---------------------------------
 
-1. Configure Discord
+1. 🍊 Begin by running dress rehearsals internally with your team.
+   - 🍊 [ ] Ensure anyone who's interested knows how to run a node.
+   - 🍊 [ ] Bully the folks who aren't interested into submission.
+   - 🍊 [ ] Ensure everyone knows how to monitor the network.
+   - 🍊 [ ] Help everyone understand the node operator game.
 
-- 🩶 [ ] Set up dedicated channels for validator chat and announcements.
-- 🫐 [ ] Ensure appropriate user roles for access and participation.
+2. 🍏 Incrementally add Validators to your rehearsals.
+   - 🩶 [ ] Not everyone will be able to participate, people are busy. That's okay.
 
-- are there any good bots worth looking into?
-  - enigma has some cool monitoring
-  - recruit some bigger vals and they'll have good bots
-  - activenodes
+3. 🍊 Boot the Network
+   - 🍊 [ ] Spin up the internal Validator nodes.
+   - 🍊 [ ] Ensure the internal Validators are producing blocks.
+   - 🍊 [ ] Ensure the internal Validators are unreachable on the public internet.
+   - 🍊 [ ] Spin up the public-facing Sentry nodes.
+   - 🍊 [ ] Ensure the public-facing Sentry nodes are reachable on the public internet.
+   - 🍊 [ ] Ensure the public-facing Sentry nodes are syncing the chain.
+   - 🍊 [ ] Sping up public-facing Seed nodes.
+   - 🍊 [ ] Ensure the public-facing Seed nodes are reachable on the public internet.
+   - 🍊 [ ] Ensure the public-facing Seed nodes are syncing the chain.
+   - 🍊 [ ] Spin up the RPC node.
+   - 🍊 [ ] Ensure the RPC node is reachable on the public internet.
+   - 🍊 [ ] Ensure the RPC node is syncing the chain.
+   - 🍊 [ ] Enure the RPC node is serving requests.
+   - 🫐 [ ] Publish the endpoints to the `networks` repository (this repo).
+   - 🫐 [ ] Publish the network information to your ofiicial documentation.
+   - 🩶 [ ] Communicate with the Validators and ensure they are able to connect to the network.
+   - 🩶 [ ] Ensure the external Validators are producing blocks.
+   - 🩶 [ ] Ensure any external fullnodes are syncing the chain.
+   - 🍊 [ ] Spin up the monitoring and alerting systems.
+   - 🍊 [ ] Spin up the Block Explorer.
 
-2. Create Announcement Strategy
-- 🫐 [ ] draft internal comms plan / ticktock
-  - is there a shared surface for ticktock?
-  - Dress Rehersal?
-- Coordinate announcements in both Discord and the networks repository.
-- Clearly communicate key dates and updates.
-  - don't forget to accomodate for timezones (e.g. use auto-timezone-formatting tools in discord; share the UTC timestamp which renders as local time)
+4. 🍊 Test the Network
+   - 🍊 [ ] Test the network with a variety of transactions.
+   - 🍊 [ ] Test the network with a variety of queries.
+   - 🍊 [ ] Test the network with a variety of attacks.
+   - 🍊 [ ] Test the network with a variety of upgrades.
+   - 🍊 [ ] Test the network with a variety of failures.
+   - 🍊 [ ] Ensure monitoring and alerting coverage is sufficient.
 
-V. Documentation and Support Materials
+5. 🍊 Nuke the Network
+   - 🍊 [ ] Tear-down the Sentry nodes.
+   - 🍊 [ ] Tear-down the RPC node.
+   - 🍊 [ ] Tear-down the Seed node.
+   - 🍊 [ ] Tear-down the internal Validators.
+   - 🩶 [ ] Tear-down the external Validators.
+   - 🩶 [ ] Tear-down any external fullnodes.
+   - 🍊 [ ] Tear-down the monitoring and alerting systems.
+   - 🍊 [ ] Tear-down the Block Explorer.
+   - 🍊 [ ] Ensure the network is dead.
+
+6. 🍊 Automate every single step of this process
+    - 🍊 [ ] Think big-green button to launch
+    - 🍊 [ ] Think big-red button to nuke
+    - 🍊 [ ] Come launch day, you'll be glad you did.
+
+
+V. Communication and Support
 ---------------------------------
 
-1. Validator Documentation
-  - 🫐 [ ] ship documentation
-    - 🔥 it's up at docs.burnt.com
-  - Ensure MAINNET validator documentation is clear and accessible.
-  - Include essential information like binary name, version, minimum gas price, chain ID, seeds, peers, and genesis file location.
-  - Highlight any non-standard requirements (e.g., BLS information).
+1. 🩶 Validator Community TLC
+   - 🩶 [ ] Allow a minimum of 3 days for validators to prepare their infrastructure based on the genesis file.
+   - 🩶 [ ] Ensure that the genesis file is distributed to all validators.
+   - 🩶 [ ] If any late-breaking changes are made to the genesis file, ensure that all validators are notified immediately.
+   - 🩶 [ ] Be noisy about any changes to the genesis file. 
+   - 🩶 [ ] Make it easy for validators to succeed.
 
-VI. Additional Considerations
+2. 🫐 Configure Discord
+   - 🫐 [ ] Ensure appropriate user roles for access and participation.
+   - 🫐 [ ] Create a dedicated channel for mainnet launch announcements.
+   - 🫐 [ ] Automate any Discord drudgery with bots.
+
+3. 🫐 Create Announcement Strategy
+   - 🫐 [ ] Draft internal communications for the team.
+   - 🫐 [ ] Coordinate announcements in both Discord and the `networks` repository.
+   - 🫐 [ ] Clearly communicate key dates and updates.
+   - 🍏 Don't forget to accomodate for timezones (e.g. use auto-timezone-formatting tools in discord; share the UTC timestamp which renders as local time)
+
+
+VI. 🚀 LAUNCH TIME
 ---------------------------------
 
-1. Marketing and Outreach
+1. 🍏 Firm up the Launch Time
+   - 🍏 [ ] Ensure all validators are ready to go.
 
-- 🫐 Develop a marketing strategy to promote the network launch.
-- 🫐 Engage with the community through social media, webinars, and other platforms.
+2. 🩶 Confirm everyone has the same `genesis.json`
+   - 🩶 [ ] Ensure all validators have the `genesis.json` and are ready to go.
 
-2. Technical Readiness
+3. 🚀 LAUNCH
+   - 🍊 [ ] Your Dress Rehearsal automation will be your best friend here.
+   - 🍊 [ ] Spin up the internal Validator nodes.
+   - 🍊 [ ] Ensure the internal Validators are producing blocks.
+   - 🍊 [ ] Ensure the internal Validators are unreachable on the public internet.
+   - 🍊 [ ] Spin up the public-facing Sentry nodes.
+   - 🍊 [ ] Ensure the public-facing Sentry nodes are reachable on the public internet.
+   - 🍊 [ ] Ensure the public-facing Sentry nodes are syncing the chain.
+   - 🍊 [ ] Sping up public-facing Sentry nodes.
+   - 🍊 [ ] Ensure the public-facing Sentry nodes are reachable on the public internet.
+   - 🍊 [ ] Ensure the public-facing Sentry nodes are syncing the chain.
+   - 🍊 [ ] Spin up the RPC node.
+   - 🍊 [ ] Ensure the RPC node is reachable on the public internet.
+   - 🍊 [ ] Ensure the RPC node is syncing the chain.
+   - 🍊 [ ] Enure the RPC node is serving requests.
+   - 🫐 [ ] Publish the endpoints to the `network` repository (this repo).
+   - 🫐 [ ] Publish the network information to your official documentation.
+   - 🩶 [ ] Communicate with the Validators and ensure they are able to connect to the network.
+   - 🩶 [ ] Ensure the external Validators are producing blocks.
+   - 🩶 [ ] Ensure any external fullnodes are syncing the chain.
+   - 🍊 [ ] Spin up the monitoring and alerting systems.
+   - 🍊 [ ] Spin up the Block Explorer.
 
-- 🍊 [ ] Conduct thorough stress tests and simulations to ensure network resilience. // more detail?
-- 🍊 [ ] Set up monitoring and alerting systems for early detection of issues. // examples?
-  - 🔥 using prometheus (nodeExporter, blackbox, open-source dashboards) and coswatch
 
-3. Post-Launch Support
-
-- 🍊 [ ] Establish a rapid response team for handling post-launch issues.
-  - who's on it?
-  - when are they on-call?
-  - 🍊 [ ] agree on the "oh shit" incident response protocol
-    - new slack channel per incident? who's attending to public-facing comms? monitoring? etc
-  - does the team need a {private, public-facing} SLA to coordinate expectations?
-- 🩶 [ ] Create/maintain open channels for feedback and continuous improvement.
-  - distinct from `EMERGENCY WAR ROOM OMG OMG` incident response channel
-- 🍊🩶 [ ] ensure there's a way ppl can reach you privately. sometimes incident feedback needs to be non-public
-
-4. Governance and Compliance
-
-- [ ] Engage with legal advisors to ensure regulatory adherence.
-- 🫐 [ ] Clearly define governance protocols and compliance measures.
-
-VII. Timeline and Milestones
+VII. Additional Considerations
 ---------------------------------
 
-- 🍊🫐🩶 [ ] Create a detailed timeline with specific milestones.
-- 🍏 Don't forget to include buffer periods for unforeseen delays or issues.
+1. 🫐 Marketing and Outreach
+   - 🫐 Develop a marketing strategy to promote the network launch.
+   - 🫐 Engage with the community through social media, webinars, and other platforms.
+
+2. 🍊🫐 Post-Launch Support
+   -  🍊🫐 [ ] Establish a rapid response team for handling post-launch issues.
+     - who's on it?
+     - when are they on-call?
+   - 🍊🫐 [ ] agree on the "oh shit" incident response protocol
+     - new slack channel per incident? 
+     - who's attending to public-facing comms?
+     - does the team need a {private, public-facing} SLA to coordinate expectations?
+   - 🫐🩶 [ ] Create/maintain open channels for feedback and continuous improvement.
+   - 🍊🩶 [ ] Ensure there's a way ppl can reach you privately. sometimes incident feedback needs to be non-public
+
+3. Governance and Compliance
+   - 🫐 [ ] Engage with legal advisors to ensure regulatory adherence.
+   - 🫐 [ ] Clearly define governance protocols and compliance measures.
+
 
 VIII. Feedback and Iteration
 ---------------------------------
@@ -186,30 +246,3 @@ VIII. Feedback and Iteration
 - 🩶 [ ] instrument a way to regularly solicit feedback from validators
 - 🫐 [ ] instrument a way to regularly solicit feedback from community members
 - 🍊 [ ] ensure feedback finds its way to the backlog (e.g., schedule regular feedback review)
-
----
-
-## Q&A
-
-### Most common fire-drills?
-- Chain upgrades scare me. Use interchaintest to go from genesis to the version you're trying to upgrade. Noble has a good example. Test rolling upgrades, test on-chain, off-chain. Test it all.
-  - Q: where should the tests live? Network repo?
-  - A: Nah, app repo. We used a mock-genesis for that test. Ensure nothing is consensus-breaking bw upgrades.
-  - A: "it's not gonna be consensus-breaking" is a dangerous assumption. It's better to default to a full software upgrade.
-  - A: the upgrade can look successful, but it can lurk there until the non-detirministic tx comes through. That's why the full upgrade is safer.
-
-
----
-
-
-This plan aims to cover all crucial aspects of a successful blockchain network launch, balancing technical precision with effective communication and community engagement.
-
-
----
-
-<!-- ## Links -->
-
-[StrangeLove-Ventures/Noble-Networks]: https://github.com/strangelove-ventures/noble-networks
-[Cosmos Mainnet Repo]: https://github.com/cosmos/mainnet
-[OSMO Networks]: https://github.com/osmosis-labs/networks
-[interchaintest]: https://github.com/strangelove-ventures/interchaintest
