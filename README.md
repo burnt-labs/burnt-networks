@@ -23,10 +23,26 @@ We are automating our lead-up to mainnet genesis, out of an abundance of transpa
 
 The zeroth block of a Cosmos chain is represented by its `genesis.json` file. It contains the entire initial state of the network. 
 
-To validate any genesis file in this repo:
+To validate any genesis file in this repo, using the xiond binary:
 
 1. Configure the bind mounts in `docker-compose.yaml`
 2. Run the following command:
 ```bash
 docker compose up validate-genesis
+```
+
+
+### Hashing and Verification of the genesis file
+
+As an extra measure, we hash the genesis file for verification by the end user.
+
+Don't Trust, Verify!
+
+1. We generate the hashes with:
+```bash
+docker compose up generate-hashes
+```
+2. You verify the hashes with:
+```bash
+docker compose up verify-hashes
 ```

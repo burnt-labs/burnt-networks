@@ -7,6 +7,27 @@ services:
     platform: linux/amd64
     command:
       - /tmp/scripts/validate-genesis.sh
+    environment:
+      MONIKER: "burnt"
+      CHAIN_ID: "xion-rehearsal-1"
+    volumes:
+      - ./.docker:/tmp/scripts
+      - ./testnets/xion-rehearsal-1:/tmp/testnet
+
+  generate-hashes:
+    image: debian:bookworm-20240130-slim
+    platform: linux/amd64
+    command:
+      - /tmp/scripts/generate-hashes.sh
+    volumes:
+      - ./.docker:/tmp/scripts
+      - ./testnets/xion-rehearsal-1:/tmp/testnet
+
+  verify-hashes:
+    image: debian:bookworm-20240130-slim
+    platform: linux/amd64
+    command:
+      - /tmp/scripts/verify-hashes.sh
     volumes:
       - ./.docker:/tmp/scripts
       - ./testnets/xion-rehearsal-1:/tmp/testnet
