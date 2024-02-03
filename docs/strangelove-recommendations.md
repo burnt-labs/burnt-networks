@@ -44,7 +44,7 @@ I. The Road to Mainnet
    - 🩶 [ ] Choose wisely. The network security is commensurate with validator quality.
    - 🩶 [ ] Define the initial stake with your Validator partnerships.
    - 🩶 [ ] Establish well known communication channels; Discord, Telegram, etc.
-   - 🩶 [ ] We recommended keeping external comms on a separate medium from external comms.
+   - 🩶 [ ] We recommended keeping internal team comms on a separate medium from external comms.
 
 4. 🍊 Run some Dress Rehearsals internally
    - 🍊 [ ] Ensure anyone who's interested knows how to run a node.
