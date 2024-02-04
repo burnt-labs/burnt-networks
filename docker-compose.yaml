@@ -6,20 +6,26 @@ services:
   # xion-rehearsal-1
   #
 
-  add-gentx:
+  gentx:
     image: burntnetwork/xion:0.3.4
     platform: linux/amd64
     command:
-      - /bin/sleep
-      - infinity
+      - /tmp/scripts/gentx.sh
     environment:
       MONIKER: "🔥 ahi.burnt.com 🔥"
       CHAIN_ID: "xion-rehearsal-1"
-      KEYNAME: "ahi.burnt.com"
       GENESIS_AMOUNT: "1000000000000uxion"
-      COMMISSION_MAX_RATE: "0.10"
-      COMMISSION_MAX_CHANGE_RATE: "0.01"
-      COMMISSION_RATE: "0.10"
+      KEYNAME: "ahi.burnt.com"
+      KEYRING_BACKEND: "file"
+      KEYRING_PASSPHRASE: "SomethingSoSecureYourMomWouldBeProud123456@@##"
+      MNEMONIC: ""  # giant dynamic salmon...
+      VAL_COMMISSION_MAX_RATE: "1.00"
+      VAL_COMMISSION_MAX_CHANGE_RATE: "1.00"
+      VAL_COMMISSION_RATE: "1.00"
+      VAL_DETAILS: "https://burnt.com"
+      VAL_IDENTITY: "FFBBF0F93A1E9190"
+      VAL_SECURITY_CONTACT: "daemon@burnt.com"
+      VAL_WEBSITE: "https://burnt.com"
     volumes:
       - ./.docker/home:/home/xiond/.xiond
       - ./.docker/scripts:/tmp/scripts

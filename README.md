@@ -31,7 +31,6 @@ To validate any genesis file in this repo, using the xiond binary:
 docker compose up validate-genesis
 ```
 
-
 ### Hashing and Verification of the genesis file
 
 As an extra measure, we hash the genesis file for verification by the end user.
@@ -45,4 +44,17 @@ docker compose up generate-hashes
 2. You verify the hashes with:
 ```bash
 docker compose up verify-hashes
+```
+
+### Adding your `gentx` to the genesis file
+
+If you are a validator, you will need to add your `gentx` to the genesis file.
+
+You're welcome to generate it with methods you are familiar with, but for convenience we have a tool to help you.
+
+1. Configure the `gentx` bind mounts in `docker-compose.yaml`
+2. Configure the `gentx` envs in `docker-compose.yaml`
+2. Run the following command:
+```bash
+docker compose up gentx
 ```
