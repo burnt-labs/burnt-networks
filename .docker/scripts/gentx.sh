@@ -5,12 +5,13 @@ export BASEDIR="/home/xiond/.xiond"
 export MOUNTDIR="/tmp/testnet"
 
 function setup_node() {
-  rm -rvf "${BASEDIR}/data"
-  rm -rvf "${BASEDIR}/config"
+  rm -rvf "${BASEDIR}/data"/* "${BASEDIR}/config"/*
   for dir in "${BASEDIR}"/keyring*; do
       [ -d "$dir" ] && rm -rvf "$dir"
   done
+
   xiond init "${MONIKER}" --chain-id "${CHAIN_ID}" --home "${BASEDIR}"
+
   cp -vf ${MOUNTDIR}/genesis.json ${BASEDIR}/config/genesis.json
 }
 
