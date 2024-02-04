@@ -39,7 +39,7 @@ services:
     command:
       - /tmp/scripts/collect-gentxs.sh
     environment:
-      MONIKER: "🔥 ahi.burnt.com 🔥"
+      MONIKER: "burnt"
       CHAIN_ID: "xion-rehearsal-1"
     volumes:
       - ./.docker/home:/home/xiond/.xiond
