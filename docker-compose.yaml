@@ -6,6 +6,25 @@ services:
   # xion-rehearsal-1
   #
 
+  add-gentx:
+    image: burntnetwork/xion:0.3.4
+    platform: linux/amd64
+    command:
+      - /bin/sleep
+      - infinity
+    environment:
+      MONIKER: "🔥 ahi.burnt.com 🔥"
+      CHAIN_ID: "xion-rehearsal-1"
+      KEYNAME: "ahi.burnt.com"
+      GENESIS_AMOUNT: "1000000000000uxion"
+      COMMISSION_MAX_RATE: "0.10"
+      COMMISSION_MAX_CHANGE_RATE: "0.01"
+      COMMISSION_RATE: "0.10"
+    volumes:
+      - ./.docker/home:/home/xiond/.xiond
+      - ./.docker/scripts:/tmp/scripts
+      - ./testnets/xion-rehearsal-1:/tmp/testnet
+
   validate-genesis:
     image: burntnetwork/xion:0.3.4
     platform: linux/amd64
@@ -15,7 +34,8 @@ services:
       MONIKER: "burnt"
       CHAIN_ID: "xion-rehearsal-1"
     volumes:
-      - ./.docker:/tmp/scripts
+      - ./.docker/home:/home/xiond/.xiond
+      - ./.docker/scripts:/tmp/scripts
       - ./testnets/xion-rehearsal-1:/tmp/testnet
 
   generate-hashes:
@@ -24,7 +44,8 @@ services:
     command:
       - /tmp/scripts/generate-hashes.sh
     volumes:
-      - ./.docker:/tmp/scripts
+      - ./.docker/home:/home/xiond/.xiond
+      - ./.docker/scripts:/tmp/scripts
       - ./testnets/xion-rehearsal-1:/tmp/testnet
 
   verify-hashes:
@@ -33,7 +54,8 @@ services:
     command:
       - /tmp/scripts/verify-hashes.sh
     volumes:
-      - ./.docker:/tmp/scripts
+      - ./.docker/home:/home/xiond/.xiond
+      - ./.docker/scripts:/tmp/scripts
       - ./testnets/xion-rehearsal-1:/tmp/testnet
 
   #
@@ -49,7 +71,8 @@ services:
       MONIKER: "burnt"
       CHAIN_ID: "xion-testnet-1"
     volumes:
-      - ./.docker:/tmp/scripts
+      - ./.docker/home:/home/xiond/.xiond
+      - ./.docker/scripts:/tmp/scripts
       - ./testnets/xion-testnet-1:/tmp/testnet
 
   generate-hashes-xion-testnet-1:
@@ -58,7 +81,8 @@ services:
     command:
       - /tmp/scripts/generate-hashes.sh
     volumes:
-      - ./.docker:/tmp/scripts
+      - ./.docker/home:/home/xiond/.xiond
+      - ./.docker/scripts:/tmp/scripts
       - ./testnets/xion-testnet-1:/tmp/testnet
 
   verify-hashes-xion-testnet-1:
@@ -67,5 +91,6 @@ services:
     command:
       - /tmp/scripts/verify-hashes.sh
     volumes:
-      - ./.docker:/tmp/scripts
+      - ./.docker/home:/home/xiond/.xiond
+      - ./.docker/scripts:/tmp/scripts
       - ./testnets/xion-testnet-1:/tmp/testnet
