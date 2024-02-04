@@ -2,32 +2,36 @@ version: "3.8"
 
 services:
 
-  validate-genesis:
-    image: burntnetwork/xion:0.3.4
+  #
+  # xion-testnet-1
+  #
+
+  validate-genesis-xion-testnet-1:
+    image: burntnetwork/xion:0.1.0
     platform: linux/amd64
     command:
       - /tmp/scripts/validate-genesis.sh
     environment:
       MONIKER: "burnt"
-      CHAIN_ID: "xion-rehearsal-1"
+      CHAIN_ID: "xion-testnet-1"
     volumes:
       - ./.docker:/tmp/scripts
-      - ./testnets/xion-rehearsal-1:/tmp/testnet
+      - ./testnets/xion-testnet-1:/tmp/testnet
 
-  generate-hashes:
+  generate-hashes-xion-testnet-1:
     image: debian:bookworm-20240130-slim
     platform: linux/amd64
     command:
       - /tmp/scripts/generate-hashes.sh
     volumes:
       - ./.docker:/tmp/scripts
-      - ./testnets/xion-rehearsal-1:/tmp/testnet
+      - ./testnets/xion-testnet-1:/tmp/testnet
 
-  verify-hashes:
+  verify-hashes-xion-testnet-1:
     image: debian:bookworm-20240130-slim
     platform: linux/amd64
     command:
       - /tmp/scripts/verify-hashes.sh
     volumes:
       - ./.docker:/tmp/scripts
-      - ./testnets/xion-rehearsal-1:/tmp/testnet
+      - ./testnets/xion-testnet-1:/tmp/testnet
