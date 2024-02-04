@@ -19,6 +19,8 @@ Please refer to the [official documentation](https://docs.burnt.com) for more de
 
 We are automating our lead-up to mainnet genesis, out of an abundance of transparency and caution.
 
+---
+
 ### Validating the genesis file
 
 The zeroth block of a Cosmos chain is represented by its `genesis.json` file. It contains the entire initial state of the network. 
@@ -30,6 +32,8 @@ To validate any genesis file in this repo, using the xiond binary:
 ```bash
 docker compose up validate-genesis
 ```
+
+---
 
 ### Hashing and Verification of the genesis file
 
@@ -46,6 +50,8 @@ docker compose up generate-hashes
 docker compose up verify-hashes
 ```
 
+---
+
 ### Adding your `gentx` to the genesis file
 
 If you are a validator, you will need to add your `gentx` to the genesis file.
@@ -58,3 +64,5 @@ You're welcome to generate it with methods you are familiar with, but for conven
 ```bash
 docker compose up gentx
 ```
+
+---
