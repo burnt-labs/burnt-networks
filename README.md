@@ -52,9 +52,9 @@ docker compose up verify-hashes
 
 ---
 
-### Adding your `gentx` to the genesis file
+### Adding your account as a genesis account
 
-If you are a validator, you will need to add your `gentx` to the genesis file.
+If you are a validator, you will need to add your account to genesis by running `gentx`.
 
 You're welcome to generate it with methods you are familiar with, but for convenience we have a tool to help you.
 
@@ -66,3 +66,13 @@ docker compose up gentx
 ```
 
 ---
+
+### Collecting all `gentx` files and adding them to genesis
+
+The final step is to collect all `gentx` files and enshrine them to genesis.
+
+1. Configure the `collect-gentxs` bind mounts in `docker-compose.yaml`
+2. Run the following command:
+```bash
+docker compose up collect-gentxs
+```
