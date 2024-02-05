@@ -575,8 +575,8 @@
       "params": {
         "blocks_per_year": "6311520",
         "goal_bonded": "0.670000000000000000",
-        "inflation_max": "0.200000000000000000",
-        "inflation_min": "0.070000000000000000",
+        "inflation_max": "0.000000000000000000",
+        "inflation_min": "0.000000000000000000",
         "inflation_rate_change": "0.130000000000000000",
         "mint_denom": "uxion"
       }
@@ -643,7 +643,7 @@
       "sequences": []
     },
     "xion": {
-      "platform_percentage": 0
+      "platform_percentage": 100
     }
   }
 }
