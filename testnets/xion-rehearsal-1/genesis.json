@@ -71,16 +71,23 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion10n9ltucc73vh5g69gjt5mmcx8jj5dyua82nlt3",
+          "address": "xion1j83l5pm2pq0ekd2gjaxdgs06t0r4uszdv9zrjq",
           "pub_key": null,
           "account_number": "4",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion1fup7t3ff2qsx4quxaw0ps3qj2vaxvjwpnx8lve",
+          "address": "xion10n9ltucc73vh5g69gjt5mmcx8jj5dyua82nlt3",
           "pub_key": null,
           "account_number": "5",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "xion1fup7t3ff2qsx4quxaw0ps3qj2vaxvjwpnx8lve",
+          "pub_key": null,
+          "account_number": "6",
           "sequence": "0"
         }
       ]
@@ -140,6 +147,15 @@
           ]
         },
         {
+          "address": "xion1j83l5pm2pq0ekd2gjaxdgs06t0r4uszdv9zrjq",
+          "coins": [
+            {
+              "denom": "uxion",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
           "address": "xion1ns95afwyvtenr6y9svh0f3l6kgu9kyrrw308q4",
           "coins": [
             {
@@ -152,7 +168,7 @@
       "supply": [
         {
           "denom": "uxion",
-          "amount": "6000000000000"
+          "amount": "7000000000000"
         }
       ],
       "denom_metadata": [
@@ -607,8 +623,8 @@
       "params": {
         "blocks_per_year": "6311520",
         "goal_bonded": "0.670000000000000000",
-        "inflation_max": "0.000000000000000000",
-        "inflation_min": "0.000000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
         "inflation_rate_change": "0.130000000000000000",
         "mint_denom": "uxion"
       }
@@ -675,7 +691,7 @@
       "sequences": []
     },
     "xion": {
-      "platform_percentage": 100
+      "platform_percentage": 0
     }
   }
 }
