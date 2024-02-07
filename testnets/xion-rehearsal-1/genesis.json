@@ -71,16 +71,23 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion10f4vr85a6gfkmgz2xaeh9w9w2tr6sjzudmhxyq",
+          "address": "xion13fj2fuelwdpg6d9mxkr7z00jx84j7rg3dyvhm2",
           "pub_key": null,
           "account_number": "4",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion16u7u2wz5y23laynxfq4wx6fa0rz58220405a9s",
+          "address": "xion10f4vr85a6gfkmgz2xaeh9w9w2tr6sjzudmhxyq",
           "pub_key": null,
           "account_number": "5",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "xion16u7u2wz5y23laynxfq4wx6fa0rz58220405a9s",
+          "pub_key": null,
+          "account_number": "6",
           "sequence": "0"
         }
       ]
@@ -131,6 +138,15 @@
           ]
         },
         {
+          "address": "xion13fj2fuelwdpg6d9mxkr7z00jx84j7rg3dyvhm2",
+          "coins": [
+            {
+              "denom": "uxion",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
           "address": "xion1ns95afwyvtenr6y9svh0f3l6kgu9kyrrw308q4",
           "coins": [
             {
@@ -152,7 +168,7 @@
       "supply": [
         {
           "denom": "uxion",
-          "amount": "6000000000000"
+          "amount": "7000000000000"
         }
       ],
       "denom_metadata": [
