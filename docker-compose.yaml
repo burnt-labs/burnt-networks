@@ -13,17 +13,17 @@ services:
     command:
       - /tmp/scripts/gentx.sh
     environment:
-      MONIKER: "apollo ☀️"
+      MONIKER: "🔥 ahi.burnt.com 🔥"
       CHAIN_ID: "xion-rehearsal-1"
       GENESIS_AMOUNT: "1000000000000uxion"
-      KEYNAME: "apollo"
+      KEYNAME: "ahi.burnt.com"
       KEYRING_BACKEND: "file"
-      KEYRING_PASSPHRASE: "SomethingSoSecureYourMomWouldBeProud123456@@##shewouldbe"
+      KEYRING_PASSPHRASE: "SuperSecretPassphrase42069"
       MNEMONIC: ""  # giant dynamic salmon...
       VAL_COMMISSION_MAX_RATE: "1.00"
       VAL_COMMISSION_MAX_CHANGE_RATE: "1.00"
       VAL_COMMISSION_RATE: "1.00"
-      VAL_DETAILS: "https://burnt-toast.com"
+      VAL_DETAILS: "https://burnt.com"
       VAL_IDENTITY: "FFBBF0F93A1E9190"
       VAL_SECURITY_CONTACT: "daemon@burnt.com"
       VAL_WEBSITE: "https://burnt.com"
