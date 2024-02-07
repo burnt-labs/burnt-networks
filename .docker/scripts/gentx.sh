@@ -36,7 +36,7 @@ function gentx() {
   export ADDRESS=$( (echo "${KEYRING_PASSPHRASE}"; echo "${KEYRING_PASSPHRASE}") | xiond keys show "${KEYNAME}" -a --keyring-backend ${KEYRING_BACKEND} --home "${BASEDIR}")
   set -x
 
-  xiond genesis add-genesis-account "${ADDRESS}" "${GENESIS_AMOUNT}"
+  xiond genesis add-genesis-account "${ADDRESS}" "${GENESIS_AMOUNT}" --append --home "${BASEDIR}"
 
   set +x
   (echo "${KEYRING_PASSPHRASE}") | xiond genesis gentx "${KEYNAME}" "${GENESIS_AMOUNT}" \

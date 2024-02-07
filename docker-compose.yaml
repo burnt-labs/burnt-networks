@@ -17,8 +17,8 @@ services:
       CHAIN_ID: "xion-rehearsal-1"
       GENESIS_AMOUNT: "1000000000000uxion"
       KEYNAME: "ahi.burnt.com"
-      KEYRING_BACKEND: "test"
-      KEYRING_PASSPHRASE: ""
+      KEYRING_BACKEND: "file"
+      KEYRING_PASSPHRASE: "SuperSecretPassphrase42069"
       MNEMONIC: ""  # giant dynamic salmon...
       VAL_COMMISSION_MAX_RATE: "1.00"
       VAL_COMMISSION_MAX_CHANGE_RATE: "1.00"
