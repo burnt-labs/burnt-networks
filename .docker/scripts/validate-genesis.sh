@@ -7,8 +7,7 @@ export MONIKER=${MONIKER:-"burnt"}
 export CHAIN_ID=${CHAIN_ID:-"test"}
 
 function setup() {
-  rm -rvf "${BASEDIR}/data" "${BASEDIR}/config"
-  xiond init "${MONIKER}" --chain-id "${CHAIN_ID}" --home "${BASEDIR}"
+  xiond init "${MONIKER}" --chain-id "${CHAIN_ID}" --home "${BASEDIR}" --overwrite
   cp -vf ${MOUNTDIR}/genesis.json ${BASEDIR}/config/genesis.json
 }
 

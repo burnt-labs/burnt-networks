@@ -1,3 +1,8 @@
+clean:
+	rm -rvf ".docker/home/data"/*
+	rm -rvf ".docker/home/config"/*
+	rm -rvf ".docker/home/keyring"*
+
 hash:
 	docker compose up generate-hashes
 verify:
