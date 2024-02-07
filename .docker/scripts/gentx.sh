@@ -51,6 +51,7 @@ function gentx() {
 
   mkdir -vp "${MOUNTDIR}/gentx"
   cp -vf "${BASEDIR}/config/gentx/"gentx*.json "${MOUNTDIR}/gentx/${MONIKER}.json"
+  rm -vf "${BASEDIR}/config/gentx/"gentx*.json
   cp -vf "${BASEDIR}/config/genesis.json" "${MOUNTDIR}/genesis.json"
 }
 
