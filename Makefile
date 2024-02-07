@@ -14,3 +14,6 @@ gentx:
 
 collect:
 	docker compose up collect-gentxs
+	docker compose up validate-genesis
+	docker compose up generate-hashes
+	docker compose up verify-hashes
