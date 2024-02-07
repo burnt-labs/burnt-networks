@@ -5,9 +5,7 @@ export MOUNTDIR="/tmp/testnet"
 export HASH_FILE="${MOUNTDIR}/genesis.asc"
 
 function setup() {
-  apt-get update
-  apt-get install -y --no-install-recommends \
-    openssl
+  apt-get install -y --no-install-recommends openssl
   rm -vf ${HASH_FILE}
 }
 
