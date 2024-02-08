@@ -21,6 +21,21 @@ We are automating our lead-up to mainnet genesis, out of an abundance of transpa
 
 ---
 
+### Shorthand Usage
+
+The commands below are all encapsulated in the Makefile:
+
+```bash
+make clean      # wipe out the .docker/home/...
+make validate   # validate the genesis file
+make hash       # generate the genesis.json hashes
+make verify     # verify the genesis.json hashes
+make gentx      # generate a gentx
+make collect    # collect all pending gentxs
+```
+
+---
+
 ### Validating the genesis file
 
 The zeroth block of a Cosmos chain is represented by its `genesis.json` file. It contains the entire initial state of the network. 
@@ -77,15 +92,3 @@ The final step is to collect all `gentx` files and enshrine them to genesis.
 docker compose up collect-gentxs
 ```
 
-### Shorthand Usage
-
-The above commands are all encapsulated with the following convenience commands:
-
-```bash
-make clean      # wipe out the .docker/home/...
-make validate   # validate the genesis file
-make hash       # generate the genesis.json hashes
-make verify     # verify the genesis.json hashes
-make gentx      # generate a gentx
-make collect    # collect all pending gentxs
-```
