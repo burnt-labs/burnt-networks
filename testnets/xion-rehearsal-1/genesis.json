@@ -262,7 +262,442 @@
       "registered_payees": []
     },
     "genutil": {
-      "gen_txs": []
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "apollo ☀️",
+                  "identity": "FFBBF0F93A1E9190",
+                  "website": "https://burnt-toast.com",
+                  "security_contact": "edjroz@burnt.com",
+                  "details": "https://burnt-toast.com"
+                },
+                "commission": {
+                  "rate": "1.000000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion12fcpm50qha7ljth4nwj6hmcz5m423n8t0n79n0",
+                "validator_address": "xionvaloper12fcpm50qha7ljth4nwj6hmcz5m423n8tys4rmu",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "FE+Uqx1PnKnbLFEs4bXkjatyoJFNzfnAyaDnI+iiDO0="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "391394bd27fec8d83559ed14c70d8bd32b9dab4c@172.18.0.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A+BPsAokCc4nFSGM1FMGTDsifEbpBJVdzFP62zoeYsgZ"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "Ht2iDnGu9LUwPFnodGkCkIyaDatVLCf7QjD6mPYQ+rJHBXWd0QoVV1hQ+6YZ9BqrUI4GNt0ClS+QRUiGbjfo6g=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "nakanodo.xyz 🍋",
+                  "identity": "B1CD2E301F524B52",
+                  "website": "https://burnt.com",
+                  "security_contact": "daemon@burnt.com",
+                  "details": "https://burnt.com"
+                },
+                "commission": {
+                  "rate": "1.000000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion1nc8krpxkj6q3grxvs9ucskfq9rkts9v9vauuwh",
+                "validator_address": "xionvaloper1nc8krpxkj6q3grxvs9ucskfq9rkts9v987h6xy",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "8HC/RARqN7fl3MifcNp6Xzsu+rsTpX21iKJ4P1a/C64="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "201715b63ece23569e4c1f4e61ebea02e424762f@192.168.192.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AhLx7EM8AcppEbCYVOui/J+/knOj3AhhSef9I+92Yljq"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "CzzTbL8qfNCXRIvvBHlkUTNaxpSYBqpdyfgjgGx5ku9Xm78O9x3/miCXztoZmajZ5aPIGkzJc40G0ZpQx1JJmw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "🔥 ahi.burnt.com 🔥",
+                  "identity": "FFBBF0F93A1E9190",
+                  "website": "https://burnt.com",
+                  "security_contact": "daemon@burnt.com",
+                  "details": "https://burnt.com"
+                },
+                "commission": {
+                  "rate": "1.000000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion1vmmh5hx0xpqaa8cpuq2f3dtdc6chv3cm0caevj",
+                "validator_address": "xionvaloper1vmmh5hx0xpqaa8cpuq2f3dtdc6chv3cmymklyp",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "0FQjue04KNCVH+cPFEAzT+lZ5ga26KBmtuzCX0QSKuI="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "a7174afc9b6907fd06817bb3da2440383c939349@192.168.192.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A1+J4t0fsGGTYxz5/SPQr1yhjERngDpfTDETmIY7IzzT"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "dxP7wqftgMHGPtOM3XK8YwMamL6sNG7xzZr5IO3o7voYQFzxvnYDueSpBfGzvd+3cUrVy0OGJFAbl1w9fcpZNw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "🔥 brand.burnt.com 🔥",
+                  "identity": "FFBBF0F93A1E9190",
+                  "website": "https://burnt.com",
+                  "security_contact": "daemon@burnt.com",
+                  "details": "https://burnt.com"
+                },
+                "commission": {
+                  "rate": "1.000000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion1ns95afwyvtenr6y9svh0f3l6kgu9kyrrw308q4",
+                "validator_address": "xionvaloper1ns95afwyvtenr6y9svh0f3l6kgu9kyrr9jypgx",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "HOwJYpXjjrUuz2Q7DA9aLE3NKSwyUaVTJucFfCEyfhU="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "a6b75badf5e09b080b16328182446328a9203b15@192.168.192.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Ar7N6DTcggnALOV6tZ7BsRIwOpCLfBQCY3K0qY5gwdKB"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "6WwfKcM656HyMAX8mfhnwHgwcj61wOMlGWW38IFYPlxFn73ARVYv99+93wuLKdfO9kBkymUWYFJsOXgdecpPkA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "🔥 fogo.burnt.com 🔥",
+                  "identity": "FFBBF0F93A1E9190",
+                  "website": "https://burnt.com",
+                  "security_contact": "daemon@burnt.com",
+                  "details": "https://burnt.com"
+                },
+                "commission": {
+                  "rate": "1.000000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion1sza3g0tav6ply8flq4m3zp9eptzjm47fmq2h6e",
+                "validator_address": "xionvaloper1sza3g0tav6ply8flq4m3zp9eptzjm47fsrp3j2",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "0yoNeImH4f89DXCmzyihVoh8NIbPp0obkK9Ss8q8HAs="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "3e86f0552a32dcb43de58e3035fa10c7b9243d2d@192.168.192.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Aq4awXJdIJfsoEQ7K0jx4+dMaHbTImOTW4GO0hEgHa7h"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "GgA1RyfSoqmVMUdVZse++byV2LTZO36p1g4h1gFlXow9AyuihDYpaYuBZkerdwIEQG5PpHobZ/aS4VQ+8BXyUw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "🔥 fuego.burnt.com 🔥",
+                  "identity": "FFBBF0F93A1E9190",
+                  "website": "https://burnt.com",
+                  "security_contact": "daemon@burnt.com",
+                  "details": "https://burnt.com"
+                },
+                "commission": {
+                  "rate": "1.000000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion1x4gpjuqzll62yxtetu4vwz00yh8jn0syf3gqzn",
+                "validator_address": "xionvaloper1x4gpjuqzll62yxtetu4vwz00yh8jn0syzjrx2q",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "QFzW/3pY0/jJu+TYFRnmNU2ETw5bO3qc2R4IBjnYNOA="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "8af75d1945d932a16df13ba46c6e65081fbb6cfc@192.168.192.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A1AJ+ydjIdZLRgSpMnwWXZkCparcmClRN9cgW7Q6p6Ls"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "viSfw7+umx3aQPPPJgKlWUZB71TLSy1KGUxqktaZ9KIkg196AxJYEi6T1gT7CinC7qD9IZiLRf+eQtOU/l6lJw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "🔥 odin.burnt.com 🔥",
+                  "identity": "FFBBF0F93A1E9190",
+                  "website": "https://burnt.com",
+                  "security_contact": "daemon@burnt.com",
+                  "details": "https://burnt.com"
+                },
+                "commission": {
+                  "rate": "1.000000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion138r45sdm2q4k84upj0w7fs3wzzy8e32z5egawr",
+                "validator_address": "xionvaloper138r45sdm2q4k84upj0w7fs3wzzy8e32zl6rmxs",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "PVYiV77R7GJU61RDctLHRV0Bk7eveIuGXXJv/fynDJY="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "aaafb3361b01381011c2d1713d8f65c737c96bb6@172.25.0.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A72lz6Q1oQpUCaGdkHHjvXvNu3rwr2sOz3oRuJ7bl8Lk"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "zndO9QTcXzH4ptwC+bSk1+iMotxH5MNQiQNA4RPQucFBW0MSy52MAwhTGpAuUtoQlf2Jt77eQ6EH77ruz7Xk7w=="
+          ]
+        }
+      ]
     },
     "globalfee": {
       "params": {
