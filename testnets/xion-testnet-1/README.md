@@ -16,11 +16,13 @@ minimum-gas-prices = "0uxion"
 
 - Seeds
 ```
+# burnt.com
 7900d5f177228def24170f9631db76afab20278e@seed.xion-testnet-1.burnt.com:11656
 ```
 
 - Persistent Peers (sentries)
 ```
+# burnt.com
 93db3539d6cc9603bbb6b9e43bfb473bdaff7e4b@sentry-use1a.xion-testnet-1.burnt.com:32656
 0f2ccb6d7e8f233c03f91dee690f5ff714319fba@sentry-use1b.xion-testnet-1.burnt.com:33656
 f684e3873191d62a74e5431202581d99fe3439b7@sentry-use1c.xion-testnet-1.burnt.com:34656
@@ -28,20 +30,24 @@ f684e3873191d62a74e5431202581d99fe3439b7@sentry-use1c.xion-testnet-1.burnt.com:3
 
 - API
 ```
+# burnt.com
 https://api.xion-testnet-1.burnt.com
 ```
 
 - RPC
 ```
+# burnt.com
 https://rpc.xion-testnet-1.burnt.com:443
 ```
 
 - gRPC
 ```
+# burnt.com
 https://grpc.xion-testnet-1.burnt.com:443
 ```
 
 - websocket
 ```
+# burnt.com
 wss://websocket.xion-testnet-1.burnt.com/websocket
 ```
