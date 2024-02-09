@@ -72,7 +72,7 @@ This repository has some branch protections in place:
 - The `main` branch requires linear history; ie. rebases only.
 - The `main` branch requires signed commits.
 - You cannot push directly to `main`.
-- Your PR cannot be rebased without at least one approval from a CODEOWNER.
+- Your PR cannot be rebased without at least one approval from a `CODEOWNER`.
 - Your PR cannot be rebased without passing the CI checks.
 - The CI checks require that the `make validate` and `make verify` commands pass.
 
@@ -81,7 +81,7 @@ To get your changes into the repository, you will need to:
 - Push your changes to your branch
 - Open a Pull Request
 - Pass the CI checks
-- Get at least one approval from a CODEOWNER
+- Get at least one approval from a `CODEOWNER`.
 
 The `CODEOWNERS` have final say on what gets merged into the `main` branch. If they're requesting changes or refusing your PR outright, there's a good reason for it.
 
