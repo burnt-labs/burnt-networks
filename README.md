@@ -6,6 +6,8 @@ Reference config for all Burnt networks.
 
 Please refer to the [official documentation](https://docs.burnt.com) for more details.
 
+To contrinute to the repo, please refer to the [contributing guidelines](./CONTRIBUTING.md).
+
 ## Mainnet
 
 - Coming soon!
