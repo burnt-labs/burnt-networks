@@ -3,7 +3,7 @@ version: "3.8"
 services:
 
   #
-  # xion-rehearsal-1
+  # xion-rehearsal-2
   #
 
   gentx:
@@ -14,7 +14,7 @@ services:
       - /tmp/scripts/gentx.sh
     environment:
       MONIKER: "🔥 ahi.burnt.com 🔥"
-      CHAIN_ID: "xion-rehearsal-1"
+      CHAIN_ID: "xion-rehearsal-2"
       GENESIS_AMOUNT: "1000000000000uxion"
       KEYNAME: "ahi.burnt.com"
       KEYRING_BACKEND: "file"
@@ -30,7 +30,7 @@ services:
     volumes:
       - ./.docker/home:/home/xiond/.xiond
       - ./.docker/scripts:/tmp/scripts
-      - ./testnets/xion-rehearsal-1:/tmp/testnet
+      - ./testnets/xion-rehearsal-2:/tmp/testnet
 
   collect-gentxs:
     image: burntnetwork/xion:0.3.4
@@ -40,11 +40,11 @@ services:
       - /tmp/scripts/collect-gentxs.sh
     environment:
       MONIKER: "burnt"
-      CHAIN_ID: "xion-rehearsal-1"
+      CHAIN_ID: "xion-rehearsal-2"
     volumes:
       - ./.docker/home:/home/xiond/.xiond
       - ./.docker/scripts:/tmp/scripts
-      - ./testnets/xion-rehearsal-1:/tmp/testnet
+      - ./testnets/xion-rehearsal-2:/tmp/testnet
 
   validate-genesis:
     image: burntnetwork/xion:0.3.4
@@ -54,10 +54,10 @@ services:
       - /tmp/scripts/validate-genesis.sh
     environment:
       MONIKER: "burnt"
-      CHAIN_ID: "xion-rehearsal-1"
+      CHAIN_ID: "xion-rehearsal-2"
     volumes:
       - ./.docker/scripts:/tmp/scripts
-      - ./testnets/xion-rehearsal-1:/tmp/testnet
+      - ./testnets/xion-rehearsal-2:/tmp/testnet
 
   generate-hashes:
     image: debian:bookworm-20240130-slim
@@ -66,7 +66,7 @@ services:
       - /tmp/scripts/generate-hashes.sh
     volumes:
       - ./.docker/scripts:/tmp/scripts
-      - ./testnets/xion-rehearsal-1:/tmp/testnet
+      - ./testnets/xion-rehearsal-2:/tmp/testnet
 
   verify-hashes:
     image: debian:bookworm-20240130-slim
@@ -75,7 +75,7 @@ services:
       - /tmp/scripts/verify-hashes.sh
     volumes:
       - ./.docker/scripts:/tmp/scripts
-      - ./testnets/xion-rehearsal-1:/tmp/testnet
+      - ./testnets/xion-rehearsal-2:/tmp/testnet
 
   #
   # xion-testnet-1
