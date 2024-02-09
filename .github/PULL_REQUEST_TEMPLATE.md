@@ -15,8 +15,9 @@ Please include a detailed description of the changes being proposed in this pull
 
 ## Testing
 
-- [ ] validate-genesis
-- [ ] verify-hashes
+- [ ] I've read [CONTRIBUTING.md](../CONTRIBUTING.md)
+- [ ] I ran `make validate-genesis`
+- [ ] I ran `make verify-hashes`
 
 ## Additional Information
 

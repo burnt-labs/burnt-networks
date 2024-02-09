@@ -91,4 +91,3 @@ The final step is to collect all `gentx` files and enshrine them to genesis.
 ```bash
 docker compose up collect-gentxs
 ```
-
