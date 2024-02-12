@@ -30,7 +30,7 @@ services:
     volumes:
       - ./.docker/home:/home/xiond/.xiond
       - ./.docker/scripts:/tmp/scripts
-      - ./testnets/xion-rehearsal-2:/tmp/testnet
+      - ./testnets/xion-rehearsal-3:/tmp/testnet
 
   collect-gentxs:
     image: burntnetwork/xion:0.3.4
