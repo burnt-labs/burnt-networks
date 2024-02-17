@@ -18,6 +18,7 @@ To contribute to the repo, please refer to the [contributing guidelines](./CONTR
 - [xion-rehearsal-1](./testnets/xion-rehearsal-1/)
 - [xion-rehearsal-2](./testnets/xion-rehearsal-2/)
 - [xion-rehearsal-3](./testnets/xion-rehearsal-3/)
+- [xion-rehearsal-4](./testnets/xion-rehearsal-4/)
 
 ## Genesis Tooling
 
