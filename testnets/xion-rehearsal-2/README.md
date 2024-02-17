@@ -2,6 +2,10 @@
 
 # xion-rehearsal-2
 
+- Speedrun attempt #1.
+- ETA to boot: 2.5 hours.
+- Internal validators only.
+
 ## Chain Details
 
 ```
