@@ -2,6 +2,10 @@
 
 # xion-rehearsal-1
 
+- Ironing out the kinks.
+- ETA to boot: 6 hours.
+- Internal validators only.
+
 ## Chain Details
 
 ```
