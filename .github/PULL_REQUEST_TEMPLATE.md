@@ -9,6 +9,7 @@ Please include a detailed description of the changes being proposed in this pull
 ## Type of Change
 
 - [ ] New Validator
+- [ ] Governance Proposal
 - [ ] Bug fix
 - [ ] Documentation update
 - [ ] Tooling enhancement
