@@ -32,6 +32,22 @@ services:
       - ./.docker/scripts:/tmp/scripts
       - ./testnets/xion-rehearsal-4:/tmp/testnet
 
+  add-genesis-account:
+    image: burntnetwork/xion:0.3.4
+    platform: linux/amd64
+    user: xiond:xiond
+    command:
+      - /tmp/scripts/add-genesis-account.sh
+    environment:
+      MONIKER: "🔥 ahi.burnt.com 🔥"
+      CHAIN_ID: "xion-rehearsal-4"
+      GENESIS_AMOUNT: "1000000uxion"
+      ADDRESS: ""
+    volumes:
+      - ./.docker/home:/home/xiond/.xiond
+      - ./.docker/scripts:/tmp/scripts
+      - ./testnets/xion-rehearsal-4:/tmp/testnet
+
   collect-gentxs:
     image: burntnetwork/xion:0.3.4
     platform: linux/amd64

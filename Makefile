@@ -15,6 +15,9 @@ gentx:
 	docker compose up generate-hashes
 	docker compose up verify-hashes
 
+account:
+	docker compose up add-genesis-account
+
 collect:
 	docker compose up collect-gentxs
 	docker compose up generate-hashes
