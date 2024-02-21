@@ -35,7 +35,8 @@ make clean      # wipe out the .docker/home/...
 make validate   # validate the genesis file
 make hash       # generate the genesis.json hashes
 make verify     # verify the genesis.json hashes
-make gentx      # generate a gentx
+make account    # add a genesis account only
+make gentx      # add a genesis account and generate a validator gentx
 make collect    # collect all pending gentxs
 ```
 
@@ -72,7 +73,20 @@ docker compose up verify-hashes
 
 ---
 
-### Adding your account as a genesis account
+### Adding a Genesis Account
+
+To add your Account to the genesis block with a token amount:
+
+1. Configure the `add-genesis-account` bind mounts in `docker-compose.yaml`
+2. Configure the `add-genesis-account` envs in `docker-compose.yaml`
+3. Run the following command:
+```bash
+docker compose up add-genesis-account
+```
+
+---
+
+### Adding a Validator Account
 
 If you are a validator, you will need to add your account to genesis by running `gentx`.
 
