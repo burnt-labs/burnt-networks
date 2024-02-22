@@ -1,0 +1,13 @@
+{
+  "messages": [
+    {
+      "@type": "/ibc.core.client.v1.ClientUpdateProposal",
+      "title": "Update IBC client 07-tendermint-1475 -> 07-tendermint-2192",
+      "description": "Update IBC client 07-tendermint-1475 -> 07-tendermint-2192",
+      "subject_client_id": "07-tendermint-1475",
+      "substitute_client_id": "07-tendermint-2192"
+    }
+  ],
+  "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/testnets/xion-testnet-1/governance-proposals/ibc-client-updates/metadata/07-tendermint-1475-2192.json",
+  "deposit": "500000000uosmo"
+}
