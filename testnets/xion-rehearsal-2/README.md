@@ -28,23 +28,3 @@ minimum-gas-prices = "0uxion"
 91ae7c2a12094caa8e3115b96b7c1af26679067c@xion-rehearsal-2.burnt.com:43656
 eb87cf13cd72e46c5ca23a6eded0eca726aed018@xion-rehearsal-2.burnt.com:44656
 ```
-
-- API
-```
-# burnt.com
-```
-
-- RPC
-```
-# burnt.com
-```
-
-- gRPC
-```
-# burnt.com
-```
-
-- websocket
-```
-# burnt.com
-```
