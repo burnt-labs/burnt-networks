@@ -10,7 +10,7 @@ To contribute to the repo, please refer to the [contributing guidelines](./CONTR
 
 ## Mainnet
 
-- Coming soon!
+- [xion-mainnet-1](./mainnet/xion-mainnet-1/)
 
 ## Testnets
 
