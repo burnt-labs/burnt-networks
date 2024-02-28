@@ -25,7 +25,7 @@
   "app_hash": "",
   "app_state": {
     "abstractaccount": {
-      "next_account_id": "622502",
+      "next_account_id": "1",
       "params": {
         "allow_all_code_ids": false,
         "allowed_code_ids": [1],
@@ -149,6 +149,7 @@
     "globalfee": {
       "params": {
         "bypass_min_fee_msg_types": [
+          "TODO: re-evaluate these",
           "/cosmwasm.wasm.v1.MsgExecuteContract",
           "/ibc.core.channel.v1.MsgRecvPacket",
           "/ibc.core.channel.v1.MsgAcknowledgement",
@@ -250,8 +251,8 @@
     },
     "mint": {
       "minter": {
-        "annual_provisions": "5825634550000.200000000000000000",
-        "inflation": "0.200000000000000000"
+        "annual_provisions": "0",
+        "inflation": "0.000000000000000000"
       },
       "params": {
         "blocks_per_year": "6311520",
