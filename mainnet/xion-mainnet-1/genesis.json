@@ -27,8 +27,8 @@
     "abstractaccount": {
       "next_account_id": "622502",
       "params": {
-        "allow_all_code_ids": true,
-        "allowed_code_ids": [],
+        "allow_all_code_ids": false,
+        "allowed_code_ids": [1],
         "max_gas_after": "5000000",
         "max_gas_before": "5000000"
       }
@@ -50,7 +50,7 @@
       "balances": [],
       "denom_metadata": [
         {
-          "description": "The native staking token of the Xion network.",
+          "description": "The native token of the Xion network.",
           "denom_units": [
             {
               "denom": "uxion",
