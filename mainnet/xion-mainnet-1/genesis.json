@@ -1,7 +1,7 @@
 {
   "genesis_time": "2024-03-01T00:00:00Z",
   "chain_id": "xion-mainnet-1",
-  "initial_height": "0",
+  "initial_height": "1",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -21,33 +21,62 @@
       "app": "0"
     }
   },
-  "validators": [],
   "app_hash": "",
   "app_state": {
     "abstractaccount": {
       "next_account_id": "1",
       "params": {
         "allow_all_code_ids": false,
-        "allowed_code_ids": [1],
+        "allowed_code_ids": [
+          1
+        ],
         "max_gas_after": "5000000",
         "max_gas_before": "5000000"
       }
     },
     "auth": {
-      "accounts": [],
       "params": {
         "max_memo_characters": "256",
-        "sig_verify_cost_ed25519": "590",
-        "sig_verify_cost_secp256k1": "1000",
         "tx_sig_limit": "7",
-        "tx_size_cost_per_byte": "10"
-      }
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "xion1yyx6nyw3fwet0lxtycvpvm2ayyag480f2yptq2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        }
+      ]
     },
     "authz": {
       "authorization": []
     },
     "bank": {
-      "balances": [],
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "xion1yyx6nyw3fwet0lxtycvpvm2ayyag480f2yptq2",
+          "coins": [
+            {
+              "denom": "uxion",
+              "amount": "2000000000000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "uxion",
+          "amount": "2000000000000000"
+        }
+      ],
       "denom_metadata": [
         {
           "description": "The native token of the Xion network.",
@@ -82,12 +111,7 @@
           "uri_hash": ""
         }
       ],
-      "params": {
-        "default_send_enabled": true,
-        "send_enabled": []
-      },
-      "send_enabled": [],
-      "supply": []
+      "send_enabled": []
     },
     "capability": {
       "index": "60",
@@ -149,7 +173,6 @@
     "globalfee": {
       "params": {
         "bypass_min_fee_msg_types": [
-          "TODO: re-evaluate these",
           "/cosmwasm.wasm.v1.MsgExecuteContract",
           "/ibc.core.channel.v1.MsgRecvPacket",
           "/ibc.core.channel.v1.MsgAcknowledgement",
