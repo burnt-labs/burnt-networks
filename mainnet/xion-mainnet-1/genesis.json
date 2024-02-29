@@ -70,6 +70,13 @@
           "pub_key": null,
           "account_number": "3",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "xion1x0dg3eumdvw6n298pmhv2kn4fxcplse7aqmlta",
+          "pub_key": null,
+          "account_number": "4",
+          "sequence": "0"
         }
       ]
     },
@@ -88,6 +95,15 @@
             {
               "denom": "uxion",
               "amount": "2000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "xion1x0dg3eumdvw6n298pmhv2kn4fxcplse7aqmlta",
+          "coins": [
+            {
+              "denom": "uxion",
+              "amount": "1000000"
             }
           ]
         },
@@ -122,7 +138,7 @@
       "supply": [
         {
           "denom": "uxion",
-          "amount": "2000000003000000"
+          "amount": "2000000004000000"
         }
       ],
       "denom_metadata": [
