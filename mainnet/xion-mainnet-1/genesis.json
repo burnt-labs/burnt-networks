@@ -182,6 +182,41 @@
           "pub_key": null,
           "account_number": "19",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "xion1t9z06h5mjpvqpdrgzyx3wnl6uas5az8jpxth8z",
+          "pub_key": null,
+          "account_number": "20",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "xion150js3q9r2h75r55zptg4tc27nr0vh52vess453",
+          "pub_key": null,
+          "account_number": "21",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "xion1ktu07w2kt4fc72perwwdd5spr8dxgfp7me2vnz",
+          "pub_key": null,
+          "account_number": "22",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "xion134svj6ch6tdl9z7enkzmajw23awx7fcwt3drx8",
+          "pub_key": null,
+          "account_number": "23",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "xion1x0dg3eumdvw6n298pmhv2kn4fxcplse7aqmlta",
+          "pub_key": null,
+          "account_number": "24",
+          "sequence": "0"
         }
       ]
     },
@@ -258,6 +293,15 @@
           ]
         },
         {
+          "address": "xion1x0dg3eumdvw6n298pmhv2kn4fxcplse7aqmlta",
+          "coins": [
+            {
+              "denom": "uxion",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
           "address": "xion180ey8cfh6k8f0rd2sjf2202wwenduj5dgrpp7v",
           "coins": [
             {
@@ -272,6 +316,15 @@
             {
               "denom": "uxion",
               "amount": "10000000000000"
+            }
+          ]
+        },
+        {
+          "address": "xion1t9z06h5mjpvqpdrgzyx3wnl6uas5az8jpxth8z",
+          "coins": [
+            {
+              "denom": "uxion",
+              "amount": "1000000"
             }
           ]
         },
@@ -321,11 +374,38 @@
           ]
         },
         {
+          "address": "xion134svj6ch6tdl9z7enkzmajw23awx7fcwt3drx8",
+          "coins": [
+            {
+              "denom": "uxion",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
           "address": "xion137mf969zedf0durkyxxelukcd0rzruxsyuuv6h",
           "coins": [
             {
               "denom": "uxion",
               "amount": "10000000000000"
+            }
+          ]
+        },
+        {
+          "address": "xion150js3q9r2h75r55zptg4tc27nr0vh52vess453",
+          "coins": [
+            {
+              "denom": "uxion",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "xion1ktu07w2kt4fc72perwwdd5spr8dxgfp7me2vnz",
+          "coins": [
+            {
+              "denom": "uxion",
+              "amount": "1000000"
             }
           ]
         },
@@ -378,7 +458,7 @@
       "supply": [
         {
           "denom": "uxion",
-          "amount": "200000000000000"
+          "amount": "200000005000000"
         }
       ],
       "denom_metadata": [
