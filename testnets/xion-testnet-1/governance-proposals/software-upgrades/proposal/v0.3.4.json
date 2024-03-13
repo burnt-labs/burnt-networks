@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "@type": null,
+      "authority": "xion10d07y265gmmuvt4z0w9aw880jnsr700jctf8qc",
+      "plan": {
+        "name": null,
+        "height": "3278095",
+        "info": "xiond:sha-74754c7",
+        "upgraded_client_state": null
+      }
+    }
+  ],
+  "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/testnets/xion-testnet-1/governance-proposals/software-upgrades/metadata/v0.3.4.json",
+  "deposit": "10000000uxion",
+  "title": "Software upgrade v0.3.4",
+  "summary": "This upgrade didn't require a coordinated chain halt. It was a binary change, and chain state was unaffected. Validators were welcome to upgrade at their convenience."
+}
