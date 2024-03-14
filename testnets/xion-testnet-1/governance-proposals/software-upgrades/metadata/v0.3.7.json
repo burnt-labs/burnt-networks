@@ -1,0 +1,10 @@
+{
+  "title": "Software upgrade v0.3.7",
+  "authors": [
+    "daemon@burnt.com"
+  ],
+  "summary": "Software upgrade v0.3.7",
+  "details": "Upgrade to v0.3.7 at block height 6887750; burntnetwork/xion:sha-f13a74c",
+  "proposal_forum_url": "",
+  "vote_option_context": ""
+}
