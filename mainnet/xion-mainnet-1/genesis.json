@@ -45,140 +45,140 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion1yyx6nyw3fwet0lxtycvpvm2ayyag480f2yptq2",
+          "address": "xion169s9w6fjptsj50yt558uruvgqvmy9ynwyssnt6",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion1y9zmah28uuhkp8lyr0ptn7nk5t4wfx36edkdrs",
+          "address": "xion1y0v5rkvvxcy6wk0t4rgvtj5gw7yefsy9azw70t",
           "pub_key": null,
           "account_number": "1",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion10z8wvgqcew5dvnq79dxw6mum64ym9fhkcldnag",
+          "address": "xion1k4flkutggpw5m9pqpd4m2h4crch5eql0vztu06",
           "pub_key": null,
           "account_number": "2",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion1c6czjztwyxq04xs4ucn0kefksqzw3t7zq3jz4g",
+          "address": "xion1j2kgq72g6gev4g537lcv5v6z292gjz38xzua4c",
           "pub_key": null,
           "account_number": "3",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion180ey8cfh6k8f0rd2sjf2202wwenduj5dgrpp7v",
+          "address": "xion1ygzcgcnu5nma8erpjucaz5sz6wyaszz9zqs0z0",
           "pub_key": null,
           "account_number": "4",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion17dfqh8n7u064x9g34dkqa8v3kq74wtftwav4r0",
+          "address": "xion1l0qd8cz7fes08yxal5s8xz5r3t003fxsnd0268",
           "pub_key": null,
           "account_number": "5",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion1q5u8d84te0e2l4y7f7v2tu7rkfe9u6zdnd6c2c",
+          "address": "xion1vlhgsfygfv0msuqhkmfps7agr4x9de4x4lqkqs",
           "pub_key": null,
           "account_number": "6",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion1qklcrw66fv4zlaur4c0w728hq95h3w6gwqdede",
+          "address": "xion1uh7vzfz644rt9en04yffwt7gwtzgenfvqedlrs",
           "pub_key": null,
           "account_number": "7",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion1wqwwprztr30trmnyrxrnrqu8u4jj67x39u4lq0",
+          "address": "xion1djzsfcq274ugf64wp8lxv4649kusk3wm68aqrt",
           "pub_key": null,
           "account_number": "8",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion137mf969zedf0durkyxxelukcd0rzruxsyuuv6h",
+          "address": "xion1pxxpqr05xzhmx52t9z9ym45f2fcqqupdmnemmx",
           "pub_key": null,
           "account_number": "9",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion1pl424pqxswqmx9hs5uvylt4w3mf3fzt59ar3yv",
+          "address": "xion1w95pw2wrl76x7gdssxw9jx6s99gxcs2l6m2xth",
           "pub_key": null,
           "account_number": "10",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion1dnxs0kk9m0zk55d5vw2dzymn7ugz7jc28e00tt",
+          "address": "xion12ak02a4v9nkfyf4vjrg6jyt9k25a38xh0mga7f",
           "pub_key": null,
           "account_number": "11",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion12afu0jelxeydlvmhek99qx58y5drej77yrhlp0",
+          "address": "xion14kehamasu2350ehykcaua5lzqj36vj5vt292kh",
           "pub_key": null,
           "account_number": "12",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion1erd5tdyzqpff0dc9pnwcp4sdeqtmr39u0fxcsw",
+          "address": "xion1d0n7mdqjvtzer8fwxj9cssqeh8hz7yejt29kqz",
           "pub_key": null,
           "account_number": "13",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion1wsda6tjs3s0ngynjrvftcyewy83du6tn9lmut7",
+          "address": "xion1t9y6v4tzcaqzk0f98q2aymqemzs8hhsputa6fc",
           "pub_key": null,
           "account_number": "14",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion19w6hqam4ms2edmtwnxy6q9vqyjtpns70yjzwc4",
+          "address": "xion1gpreazerq6vpjcdzcemf8m75v8ngxkr2w5h7cr",
           "pub_key": null,
           "account_number": "15",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion1lwpeunvq9pl98wnlk5hth2xu7cscqc2sd4q7ur",
+          "address": "xion1vacq9ewy3psv04k5f7us40l2fuqcze54qk6y0w",
           "pub_key": null,
           "account_number": "16",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion1d4n02hdwm4uc4ell8tgfh3yndymf5c47kw5nnu",
+          "address": "xion1ruufcvq98l924eemc2zxwpr28acg35emwhrcav",
           "pub_key": null,
           "account_number": "17",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion1utfyhhd5ecxm64ys5erdyu7w9mvnmtldaad4ln",
+          "address": "xion1qgjnjt3lz3l40zypgw7vr2c5k9c3sqgc7lmecs",
           "pub_key": null,
           "account_number": "18",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "xion1zqvp5a0ww9fy689vn0dgdszdgc90urxgff8a2u",
+          "address": "xion1n06z63fkxz7hh78trnlgl6gjtxqkqeltnkan87",
           "pub_key": null,
           "account_number": "19",
           "sequence": "0"
@@ -335,38 +335,38 @@
       },
       "balances": [
         {
-          "address": "xion1q5u8d84te0e2l4y7f7v2tu7rkfe9u6zdnd6c2c",
+          "address": "xion1vlhgsfygfv0msuqhkmfps7agr4x9de4x4lqkqs",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
         {
-          "address": "xion1qklcrw66fv4zlaur4c0w728hq95h3w6gwqdede",
+          "address": "xion1uh7vzfz644rt9en04yffwt7gwtzgenfvqedlrs",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
         {
-          "address": "xion1pl424pqxswqmx9hs5uvylt4w3mf3fzt59ar3yv",
+          "address": "xion1w95pw2wrl76x7gdssxw9jx6s99gxcs2l6m2xth",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
         {
-          "address": "xion1zqvp5a0ww9fy689vn0dgdszdgc90urxgff8a2u",
+          "address": "xion1n06z63fkxz7hh78trnlgl6gjtxqkqeltnkan87",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -380,29 +380,29 @@
           ]
         },
         {
-          "address": "xion1yyx6nyw3fwet0lxtycvpvm2ayyag480f2yptq2",
+          "address": "xion169s9w6fjptsj50yt558uruvgqvmy9ynwyssnt6",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "102999980000000"
             }
           ]
         },
         {
-          "address": "xion1y9zmah28uuhkp8lyr0ptn7nk5t4wfx36edkdrs",
+          "address": "xion1y0v5rkvvxcy6wk0t4rgvtj5gw7yefsy9azw70t",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "79000000000000"
             }
           ]
         },
         {
-          "address": "xion19w6hqam4ms2edmtwnxy6q9vqyjtpns70yjzwc4",
+          "address": "xion1gpreazerq6vpjcdzcemf8m75v8ngxkr2w5h7cr",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -416,20 +416,20 @@
           ]
         },
         {
-          "address": "xion180ey8cfh6k8f0rd2sjf2202wwenduj5dgrpp7v",
+          "address": "xion1ygzcgcnu5nma8erpjucaz5sz6wyaszz9zqs0z0",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
         {
-          "address": "xion12afu0jelxeydlvmhek99qx58y5drej77yrhlp0",
+          "address": "xion14kehamasu2350ehykcaua5lzqj36vj5vt292kh",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -452,47 +452,47 @@
           ]
         },
         {
-          "address": "xion1dnxs0kk9m0zk55d5vw2dzymn7ugz7jc28e00tt",
+          "address": "xion12ak02a4v9nkfyf4vjrg6jyt9k25a38xh0mga7f",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
         {
-          "address": "xion1d4n02hdwm4uc4ell8tgfh3yndymf5c47kw5nnu",
+          "address": "xion1ruufcvq98l924eemc2zxwpr28acg35emwhrcav",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
         {
-          "address": "xion1wqwwprztr30trmnyrxrnrqu8u4jj67x39u4lq0",
+          "address": "xion1djzsfcq274ugf64wp8lxv4649kusk3wm68aqrt",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
         {
-          "address": "xion1wsda6tjs3s0ngynjrvftcyewy83du6tn9lmut7",
+          "address": "xion1t9y6v4tzcaqzk0f98q2aymqemzs8hhsputa6fc",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
         {
-          "address": "xion10z8wvgqcew5dvnq79dxw6mum64ym9fhkcldnag",
+          "address": "xion1k4flkutggpw5m9pqpd4m2h4crch5eql0vztu06",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -542,11 +542,11 @@
           ]
         },
         {
-          "address": "xion137mf969zedf0durkyxxelukcd0rzruxsyuuv6h",
+          "address": "xion1pxxpqr05xzhmx52t9z9ym45f2fcqqupdmnemmx",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -614,11 +614,11 @@
           ]
         },
         {
-          "address": "xion1c6czjztwyxq04xs4ucn0kefksqzw3t7zq3jz4g",
+          "address": "xion1j2kgq72g6gev4g537lcv5v6z292gjz38xzua4c",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -632,11 +632,11 @@
           ]
         },
         {
-          "address": "xion1erd5tdyzqpff0dc9pnwcp4sdeqtmr39u0fxcsw",
+          "address": "xion1d0n7mdqjvtzer8fwxj9cssqeh8hz7yejt29kqz",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -650,11 +650,11 @@
           ]
         },
         {
-          "address": "xion1utfyhhd5ecxm64ys5erdyu7w9mvnmtldaad4ln",
+          "address": "xion1qgjnjt3lz3l40zypgw7vr2c5k9c3sqgc7lmecs",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -668,20 +668,20 @@
           ]
         },
         {
-          "address": "xion17dfqh8n7u064x9g34dkqa8v3kq74wtftwav4r0",
+          "address": "xion1l0qd8cz7fes08yxal5s8xz5r3t003fxsnd0268",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
         {
-          "address": "xion1lwpeunvq9pl98wnlk5hth2xu7cscqc2sd4q7ur",
+          "address": "xion1vacq9ewy3psv04k5f7us40l2fuqcze54qk6y0w",
           "coins": [
             {
               "denom": "uxion",
-              "amount": "10000000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -698,7 +698,7 @@
       "supply": [
         {
           "denom": "uxion",
-          "amount": "200000020000000"
+          "amount": "200000000000000"
         }
       ],
       "denom_metadata": [
