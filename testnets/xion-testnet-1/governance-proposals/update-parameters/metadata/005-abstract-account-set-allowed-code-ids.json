@@ -1,0 +1,10 @@
+{
+  "title": "Allow specific wasm codeIDs for x/abstractaccount",
+  "authors": [
+    "daemon@burnt.com"
+  ],
+  "summary": "Allow specific wasm codeIDs for x/abstractaccount",
+  "details": "Allow specific wasm codeIDs for x/abstractaccount",
+  "proposal_forum_url": "",
+  "vote_option_context": ""
+}
