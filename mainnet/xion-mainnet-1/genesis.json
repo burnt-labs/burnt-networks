@@ -1159,6 +1159,12 @@
         "port": "icahost"
       }
     },
+    "jwk": {
+      "params": {
+        "time_offset": "30",
+        "deployment_gas": "0"
+      }
+    },
     "mint": {
       "minter": {
         "annual_provisions": "0",
