@@ -7,7 +7,7 @@ services:
   #
 
   gentx:
-    image: burntnetwork/xion:0.3.4
+    image: burntnetwork/xion:0.3.7
     platform: linux/amd64
     user: xiond:xiond
     command:
@@ -33,7 +33,7 @@ services:
       - ./mainnet/xion-mainnet-1:/tmp/testnet
 
   add-genesis-account:
-    image: burntnetwork/xion:0.3.4
+    image: burntnetwork/xion:0.3.7
     platform: linux/amd64
     user: xiond:xiond
     command:
@@ -49,7 +49,7 @@ services:
       - ./mainnet/xion-mainnet-1:/tmp/testnet
 
   collect-gentxs:
-    image: burntnetwork/xion:0.3.4
+    image: burntnetwork/xion:0.3.7
     platform: linux/amd64
     user: xiond:xiond
     command:
@@ -63,7 +63,7 @@ services:
       - ./mainnet/xion-mainnet-1:/tmp/testnet
 
   validate-genesis:
-    image: burntnetwork/xion:0.3.4
+    image: burntnetwork/xion:0.3.7
     platform: linux/amd64
     user: xiond:xiond
     command:
