@@ -793,7 +793,1184 @@
     },
     "genutil": {
       "gen_txs": [
-        
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "DSRV",
+                  "identity": "CC434B6FE536F51B",
+                  "website": "https://dsrvlabs.com",
+                  "security_contact": "validator@dsrvlabs.com",
+                  "details": "DSRV is an integrated blockchain solutions company with the mission of enriching the crypto ecosystem via stronger connectivity. We strive to be your gateway to a suite of all-comprehensive blockchain services. Everything distributed, served complete."
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion1a48hxwgsyu27644k68lu74llw86mg0cg2jl5x6",
+                "validator_address": "xionvaloper1a48hxwgsyu27644k68lu74llw86mg0cgp35jwf",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "sF0lLl76zPjSkJ9K85tFMyaN9sFY/9988GlmcAWRqnM="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "4ccf41be38a96ae1addadb0ab01e0048ccec932b@172.18.0.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Ag2G3jw87MWtWcQZCGRa/DDi13ApuTnD4dXQCi/JvQhR"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "6tiPpxSvJHzIhv8fBGj5W9dpCfoTwFbDRIHJJj2sFaBiQvwVkIdEKdUfZtwdlh+eXA7nIKV9KFwwelDT6waeWw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "BonusBlock",
+                  "identity": "E148E476DBA045F4",
+                  "website": "bonusblock.io",
+                  "security_contact": "team@bonusblock.io",
+                  "details": "BonusBlock Engagement Protocol and Marketplace: Grow your On-Chain Users"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion1j589wztwtjrdkunpdehpjrja4snw5fj83j992l",
+                "validator_address": "xionvaloper1j589wztwtjrdkunpdehpjrja4snw5fj863wrzv",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "xtWAqiU8l4sWgSaNQISg/oRibSc5By0Dp5SeATikn7c="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "34a01848ffc2fbb198c4cd04182b53bbdf33de90@51.159.158.10:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A6rGbhI31zO/6F/0kK9Y76+WfhY24f8pOrpF2CcI/ZMm"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "DdpixzakvFp6BvA/nhu67QDs1dYVMUwBu0jrcgOG5cFBVVRjsoFLCBVEJtYfcLap316v6xna7WHoWdAsC50hGg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Dora Factory PGS",
+                  "identity": "1BEC0B582AEDB0EC",
+                  "website": "https://dorafactory.org",
+                  "security_contact": "node-operation@mail.dorafactory.org",
+                  "details": "Dora Factory is the digital infrastructure of the Global Hacker Movement."
+                },
+                "commission": {
+                  "rate": "1.000000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion10u8qdp6c9x277e2zy50460t30rkkkktcusp6qw",
+                "validator_address": "xionvaloper10u8qdp6c9x277e2zy50460t30rkkkktchn2uga",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ZzKO604IWgaErkvYWmcQd485h+tVEfrAG+HYaCJ0TLY="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "61a9d8f5c5f443bed9378761f400839cdd0ac31e@192.168.1.14:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AlPrWmEnSfIIuLYLC4PQjACVOgzjwHROEVBrgc3bxG8W"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "k4bvF9sUxUZGJQjPfL6kMCW+Sxpb9nXVtjc33Z00/CA6LBjN8qz8R4MO6mHVbkO0U5aDDzV3/aIB3pDVeiwbKA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "KudasaiJP",
+                  "identity": "8053B9A8E7E4C20E",
+                  "website": "https://kudasai.co.jp",
+                  "security_contact": "validator-dev@kudasai.co.jp",
+                  "details": "Largest community validator in Japan offering validating, education and penetration into the Japanese market."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.250000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion1hms4lpl55sgq25ln05t6xz5qln0zfwz7x3c6vg",
+                "validator_address": "xionvaloper1hms4lpl55sgq25ln05t6xz5qln0zfwz7djnuym",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "lkesOMyCFZrjjeryGdcX3h5mYACNRr9i8luW1SVnF3U="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "801c9ecd851b486bb5819e1e4600138e4f14e90e@192.168.10.63:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A708sn4VancAhdBRkfPO0QgIAoa/uJiycpz4nxnAHQnR"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "chfwPRejOCbuVxXQ6w380uVjVK+sc0qMgt+Iy9DidhIc8Y3+2lN9tNNNam6/2IMJ1YpWeaPR5SXTvzCjeie9tQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": " Lavender.Five Nodes 🐝",
+                  "identity": "",
+                  "website": "https://www.lavenderfive.com/",
+                  "security_contact": "security@lavenderfive.com",
+                  "details": "Fortifying crypto networks with Horcrux security, slash insurance, and open source contributions. Connect with us at https://linktr.ee/lavenderfive."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.100000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion140l6y2gp3gxvay6qtn70re7z2s0gn57zwsfxs2",
+                "validator_address": "xionvaloper140l6y2gp3gxvay6qtn70re7z2s0gn57z9nzqce",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "AgQSbxeY7fFvwzAE81b9ZHR09Zc4OZm0XZRoGfxFI9U="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "61abd88266e174a4fd34fe606a32ee8c63745b67@192.168.1.151:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AgAxffwFDTjrK5UoAmT9aVOuI7CGxe3T5Wsxx2kWWhJB"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "uj064agh5AaUtbBa1i93f/cDx7t07JczB1UW4/FnvcJTaqfhfHH9uQMiliboz+GsMYEVFUrtv5xdeAMfmnDY8g=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "StakeLab",
+                  "identity": "F12B081334CBE0C6",
+                  "website": "https://www.stakelab.zone",
+                  "security_contact": "security@stakelab.zone",
+                  "details": "Grow your assets - Staking \u0026 Relaying Hub"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion1ypwfnfuldmlp9u8asqzz6qx29p0utqzegh3c09",
+                "validator_address": "xionvaloper1ypwfnfuldmlp9u8asqzz6qx29p0utqzer5678k",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "BfIV7pyWoTFM0KiXIbgFWAqZcu3fZfZHkJ0F1GEIo4E="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "766af9cd08365704f7962d3071d1a9c684a88005@95.217.224.124:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AgtM5KcRpmaGPPTMUgaRrhHaB4jek93gVvi3XmW+YLr1"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "UsDdehOy9kjQUZw4v1IIeQ/9xlD1o3FaG30C1UcuAZQYrlfYKuS+P+hxNyDBzUQ9VLr2RwMis6Qzb+8OPkwkgQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Forbole",
+                  "identity": "2861F5EE06627224",
+                  "website": "https://forbole.com",
+                  "security_contact": "security@forbole.com",
+                  "details": "Co-building the Interchain"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion1ezgsakjpt643fjd9ksr284a0nyldmdgvv3ekdw",
+                "validator_address": "xionvaloper1ezgsakjpt643fjd9ksr284a0nyldmdgv8jjs9a",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "KY9ViJwYx7z2w+5SDAcDjqdcq/NKOgXyS6BTI7qQGo0="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "89c7b43b7d489d2acaefdce9ff1508c4e163bf8c@192.168.50.57:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AqYSe3830crCm2l9RSODuzQSDJ9WT73MfU6D6PZgANM0"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "HGP57alhlba1DrFqAZmijNeoWCDZXXWbC75sxLDqnlAYM1ZLrsqxHs/VQKyJEBIoZqxsUeifJmTDL4xLaI0NOw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Imperator.co",
+                  "identity": "0878BA6BE556C132",
+                  "website": "https://imperator.co/",
+                  "security_contact": "contact@imperator.co",
+                  "details": "100% refund on downtime slashing -- Leading Proof-of-Stake Network Validator \u0026 Relayer"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.500000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion1n2ags3yzp9a3dyjtm6fae7qsqgtulkzdt9lmug",
+                "validator_address": "xionvaloper1n2ags3yzp9a3dyjtm6fae7qsqgtulkzdqx5a5m",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "aE1NlwnTCChcjgecjKMNE0Btdur+bKZl7M4CBgV6iZg="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "354358b63aee9e658f3ea47085e21ad5ac4f9415@172.17.1.81:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A/2IJrt62rRNpdX8+Qr2gws+XuUrsr1zp8kMxyKSV7/o"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "XS2QIKncQHxPNRb0ZE1CrHNpPu5kIfdMqGpsgIxBhPRZaPSqo7ENhm/0VK7yfNZhR1XzgKaXq1CCM5pdtXWNeg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "InfStones",
+                  "identity": "",
+                  "website": "https://infstones.com",
+                  "security_contact": "partnerships@infstones.com",
+                  "details": "https://infstones.com"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion167l39wcewwuks065vu9f5qggyjaavk5dthtu7n",
+                "validator_address": "xionvaloper167l39wcewwuks065vu9f5qggyjaavk5dq5q6kq",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "57wUSN4uv/xy+pS7jLh15mYaz37THsWBw3YqwHQoidY="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "cdac21eaaf87b39ecb2715887c3bd6190eeb927f@172.0.2.157:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AkOrx8Ad4GyQkTf6zxpRLsjy4njc3N+B7NetN4644bas"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "exvvNzZDjCUjgiZNxC2qm4noLhloEgh6zS4ZF3CL/b5wJLeVGAkjDVHg9APLJhe+w1KZr4AypMSgr8+/SiugSA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Injective Labs",
+                  "identity": "2008DAB643ECF438",
+                  "website": "injectivelabs.org",
+                  "security_contact": "validator@injectivelabs.org",
+                  "details": "Injective is a lightning fast interoperable layer one optimized for building unmatched Web3 finance applications. Injective is incubated by Binance and is backed by prominent investors such as Jump Crypto, Pantera and Mark Cuban."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion10ezztfr3jfet8ac6l23fw3tqtxhacq05zckyka",
+                "validator_address": "xionvaloper10ezztfr3jfet8ac6l23fw3tqtxhacq05fmaz7w",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "kqnUSsx2ZA0T/C5Uq9ddQbshM5QMK9JeAytPGKOPjC4="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "98416f480894740934cdc4d6249d247e93816847@162.19.235.151:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A0EnC5HOYi+s9awe7WS1mx+FVSWtOYj4H6c1JmvxUOfy"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "Jg7ORtNuoHb/mfTf19W4x7FYdh5IFy16dgdAzq5vYiEOClvaX7qc6AeNFNZ06jC2fCZaICrpoJllQYJN57o1qw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "kingnodes 👑",
+                  "identity": "30E6CD38D9721222",
+                  "website": "https://kingnodes.com",
+                  "security_contact": "security@kingnodes.com",
+                  "details": "Professional PoS validator. Join our community of delegators Telegram: https://t.me/kingnodes Twitter: https://twitter.com/kingnodes"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.200000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion10g3fdhq3c2ev2enrhh7z9xyzphal3audsaghsx",
+                "validator_address": "xionvaloper10g3fdhq3c2ev2enrhh7z9xyzphal3audm7r3c4",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "2vJEZEiw68sR2QYRnUtyf6jr0NkBBnKAOIUI30TF46Q="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "812ff40bd081ff9aec0d1b42a0e0ffd8eeb473ba@146.59.52.137:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A5U6C6sXEXdUibR7acuHUHnRZa1PSHBBWci9q0D3SbNs"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "F9tywadttC3lkBU9yCf5FCFTdjtNvGqZ2Tc8q5XamW8zoGpypYTjbmHZjHFp3MqqdNOh21BIQ6SM9UFSPttX9Q=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "polkachu.com",
+                  "identity": "0A6AF02D1557E5B4",
+                  "website": "https://polkachu.com",
+                  "security_contact": "hello@polkachu.com",
+                  "details": "Polkachu is the trusted staking service provider for blockchain projects. 100% refund for downtime slash. Contact us at hello@polkachu.com"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.100000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion1dzwqegk4wnff04l5sa0w892l6a7sg08zd0h3va",
+                "validator_address": "xionvaloper1dzwqegk4wnff04l5sa0w892l6a7sg08zxvuhyw",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "QNCrCJo+HUSfSGHOPZh/+w/Mi2M8qVGj/v8T10f+94k="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "6fc8bcca45e5c381114ec738534160ce5e5bcb4e@178.63.73.162:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A7cOxk9ZaaVlFHWqaqsE4nEoIVU9pv6amEw957ui0uqQ"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "/x3/NKDDnsb9TX+cMWijkVr/iQ3dkbsU6cDvmJ6jPk14qykoE/U2OVixYK/90cYbpum/Co0xCV5+dG3BrCDpPg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Hex Technologies",
+                  "identity": "DEA21069031BB3F4",
+                  "website": "https://hextrust.com",
+                  "security_contact": "",
+                  "details": "Hex Trust is a fully licensed digital asset custodian dedicated to providing solutions for protocols, foundations, financial institutions, and the Web3 ecosystem."
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion18hj7x8dlchh77dd2k9wr7dqvygmmpxrpdgfxhk",
+                "validator_address": "xionvaloper18hj7x8dlchh77dd2k9wr7dqvygmmpxrpxtzql9",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "/7+8El4lPtrDL/SiooQJHEFB9Vynm9dh0JcOEqRFYJg="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "8d7f93898440c74a5476d457b9e3a236ec1b766c@172.18.0.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AsUwdOlHlv2VKEcQU8tDOIU4BxdQ+4HOsXAeW8pi0ktx"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "w9hf9PRdxx+O60lPgMvX3WgAGSTjfoyh5ghT3UBgj8QrfVcn62rymdGvoHANPM5EaK0dNQfk8YiOICkm6Kv0NQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "nakanodo.xyz 🍋",
+                  "identity": "B1CD2E301F524B52",
+                  "website": "https://nakanodo.xyz",
+                  "security_contact": "validators@nakanodo.xyz",
+                  "details": "https://nakanodo.xyz"
+                },
+                "commission": {
+                  "rate": "0.010000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion1t9z06h5mjpvqpdrgzyx3wnl6uas5az8jpxth8z",
+                "validator_address": "xionvaloper1t9z06h5mjpvqpdrgzyx3wnl6uas5az8j29q303",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "r0NcVxwkK6jGrprUBKET/gPRVqSaWLgKXNQO3JnrLpM="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "fa6ca41578ace8a83914651d04f97855995d975d@172.18.0.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AhrJHZZQc6y5Ja3Vthqiul5FEZ+grQ3rv+3rQUA/Cvk3"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "YhHyjo760Od2LRnFjtdpolMcHn1XBGce9e1R4iigW8RvyiPpylJMux3DZRg0lrr7QnS2bpdqpB0XekZZm2EbrQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "UbikCapital",
+                  "identity": "8265DEAF50B61DF7",
+                  "website": "https://www.ubik.capital",
+                  "security_contact": "contact@ubik.capital",
+                  "details": "Ubik Capital secures major proof of stake networks and is a trusted staking provider with years of industry experience. By delegating to us, you agree to the Terms of Service at: https://ubik.capital"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion1j5s59eszaf5lhsg4h0rm69zwcz5rcut06cfw56",
+                "validator_address": "xionvaloper1j5s59eszaf5lhsg4h0rm69zwcz5rcut03mzguf",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "pt6JD/yWNaKDYwzgshCYS5JXQf+JH3kSuyQHKm/F2JA="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "9a591e70fd2537cd7a3cac531941a2709f92db98@136.243.33.49:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A4weo6X1Xan/tKJaKdkZNpAkiO2nZb6WsdL0L8TMMmVC"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "7kf9xePyYpkjtjzpN5qD9j/k2j+HbCXvTBirR/SVemtDk60+6FkScECvO4y+mq4o82XIVA8wTZoqgQFL4YZtPg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "🔥 ahi.burnt.com 🔥",
+                  "identity": "FFBBF0F93A1E9190",
+                  "website": "https://burnt.com",
+                  "security_contact": "daemon@burnt.com",
+                  "details": "https://burnt.com"
+                },
+                "commission": {
+                  "rate": "1.000000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion150js3q9r2h75r55zptg4tc27nr0vh52vess453",
+                "validator_address": "xionvaloper150js3q9r2h75r55zptg4tc27nr0vh52vjnmnuz",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Scwi5tuOgvyPUmN0uNZXImFD+w3bu7QzXVUUy9HyG0A="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "2953c2c0b31d60962a1624d6690c74555b364e23@172.18.0.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A26xhYdAqbQPIkf4RIVfSl68lRDE/EEXsZiAsxQYGdoB"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "zKgheSZNDXuwqhg5attxDHuCVby/hWS+Q96V86Z2X6sbCV8a8Yi33zulyj947KQSMBeFPhz7582n9Vbacx2fpw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "🔥 brand.burnt.com 🔥",
+                  "identity": "FFBBF0F93A1E9190",
+                  "website": "https://burnt.com",
+                  "security_contact": "daemon@burnt.com",
+                  "details": "https://burnt.com"
+                },
+                "commission": {
+                  "rate": "1.000000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion1ktu07w2kt4fc72perwwdd5spr8dxgfp7me2vnz",
+                "validator_address": "xionvaloper1ktu07w2kt4fc72perwwdd5spr8dxgfp7s6p2m3",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "IOzkS1rpnamNhRGxaxuz3e1oe1W6dQmY5Wbw+03Ro1c="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "f5fd37d8f608aea050c7f2bb07cd3c7594d83604@172.18.0.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Aip8obOJCSn3+xm07pWAGUjiAxWUXY6tMWhShPIz4DLB"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "qiadtpYm2xIa2ZGFPfEG/ro1vhDSpDbYlbpsL/+joLRfF+hA+EbWSk6aePzrDbC31kYvCkhlVF1YYBAgUCT05A=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "🔥 fogo.burnt.com 🔥",
+                  "identity": "FFBBF0F93A1E9190",
+                  "website": "https://burnt.com",
+                  "security_contact": "daemon@burnt.com",
+                  "details": "https://burnt.com"
+                },
+                "commission": {
+                  "rate": "1.000000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion134svj6ch6tdl9z7enkzmajw23awx7fcwt3drx8",
+                "validator_address": "xionvaloper134svj6ch6tdl9z7enkzmajw23awx7fcwqjx9w5",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "pJ5mcC6DuFddjp4Vw8I5f/BsCzWFJn8GsTqshLseDa8="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "356db11612d1552de57d5dbac5fba32be6836986@172.18.0.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AhO/dROWqt4IP9n0yId9R3hOt1EKTyaK1w8ff61kd97+"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "jCTO15jx9AfLnotCr09VCqDYVfefLS+ZEL3jI1tlsKYxQj/wC+Vl/og2SmeLiwLoATui+8NcAVWe09+8Ucg4NQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "🔥 fuego.burnt.com 🔥",
+                  "identity": "FFBBF0F93A1E9190",
+                  "website": "https://burnt.com",
+                  "security_contact": "daemon@burnt.com",
+                  "details": "https://burnt.com"
+                },
+                "commission": {
+                  "rate": "1.000000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "xion1x0dg3eumdvw6n298pmhv2kn4fxcplse7aqmlta",
+                "validator_address": "xionvaloper1x0dg3eumdvw6n298pmhv2kn4fxcplse7krserw",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "t8PRg9ditGshOuk627jQQyeZkE7cKSNFbpeM3QF+lWw="
+                },
+                "value": {
+                  "denom": "uxion",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "f340c8279b462d925bee9478aa293a4bd078391e@172.18.0.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Ar0/7MmsGj9Ig8UzEG4zF3iKvBhxrLIrj3wS+zukVO8W"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "otkr0IbyJhSyJYODqX4IcHYLOrV8eoI6+TJ90j1NZfgl/OIYGUFx6LTjD+6dMFznxe/P1eOjKE+JsO449YSw6g=="
+          ]
+        }
       ]
     },
     "globalfee": {
