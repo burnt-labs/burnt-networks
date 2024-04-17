@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+      "authority": "xion10d07y265gmmuvt4z0w9aw880jnsr700jctf8qc",
+      "plan": {
+        "name": "v6",
+        "height": "7438800",
+        "info": "Upgrade to v0.3.9 at block height 7438800; burntnetwork/xion:0.3.9",
+        "upgraded_client_state": null
+      }
+    }
+  ],
+  "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/testnets/xion-testnet-1/governance-proposals/software-upgrades/metadata/v0.3.9.json",
+  "deposit": "10000000uxion",
+  "title": "Software Upgrade v0.3.9",
+  "summary": "Software Upgrade v0.3.9"
+}
