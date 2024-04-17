@@ -1,0 +1,16 @@
+{
+ "messages": [
+  {
+   "@type": "/osmosis.tokenfactory.v1beta1.MsgUpdateParams",
+   "authority": "xion10d07y265gmmuvt4z0w9aw880jnsr700jctf8qc",
+   "params": {
+    "denom_creation_fee": [{"amount":"100000000", "denom": "uxion"}],
+    "denom_creation_gas_consume": "2000000"
+   }
+  }
+ ],
+ "metadata": "ipfs://CID",
+ "deposit": "10000000uxion",
+ "title": "Update TokenFactory Params",
+ "summary": "Setting the TokenFactory params to the correct staking token"
+}
