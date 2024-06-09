@@ -2,6 +2,10 @@
 
 # xion-testnet-1
 
+## status page
+
+- https://uptime.burnt.com/status/testnet
+
 ## Chain Details
 
 - [Cosmos Chain Registry](https://github.com/cosmos/chain-registry/blob/master/testnets/xiontestnet/chain.json)

@@ -12,6 +12,10 @@ To contribute to the repo, please refer to the [contributing guidelines](./CONTR
 
 - [xion-mainnet-1](./mainnet/xion-mainnet-1/)
 
+### Mainnet Status page
+
+- Coming soon!
+
 ## Testnets
 
 - [xion-testnet-1](./testnets/xion-testnet-1/)
@@ -19,6 +23,10 @@ To contribute to the repo, please refer to the [contributing guidelines](./CONTR
 - [xion-rehearsal-2](./testnets/xion-rehearsal-2/)
 - [xion-rehearsal-3](./testnets/xion-rehearsal-3/)
 - [xion-rehearsal-4](./testnets/xion-rehearsal-4/)
+
+### Testnet Status page
+
+- https://uptime.burnt.com/status/testnet
 
 ## Genesis Tooling
 
