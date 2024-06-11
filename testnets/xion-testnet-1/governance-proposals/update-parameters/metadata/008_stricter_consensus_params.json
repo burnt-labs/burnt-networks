@@ -1,0 +1,10 @@
+{
+ "title": "Set a max block gas limit",
+ "authors": [
+  "ash@burnt.com"
+ ],
+ "summary": "We plan to set a max block gas limit to 20M in order to limit high computation impact from affecting the network",
+ "details": "20M allows for roughly 100 account creations per block",
+ "proposal_forum_url": "none",
+ "vote_option_context": "We plan to set a max block gas limit to 20M, and block size to 4mb in order to limit high computation impact from affecting the network"
+}
