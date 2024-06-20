@@ -1,0 +1,10 @@
+{
+  "title": "Software upgrade v6.1.0",
+  "authors": [
+    "daemon@burnt.com"
+  ],
+  "summary": "Software upgrade v6.1.0",
+  "details": "Upgrade to v6.1.0 at block height 8455200; burntnetwork/xion:6.1.0",
+  "proposal_forum_url": "",
+  "vote_option_context": ""
+}
