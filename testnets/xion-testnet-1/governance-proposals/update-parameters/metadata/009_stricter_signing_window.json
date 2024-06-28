@@ -1,0 +1,10 @@
+{
+ "title": "Shorten Signing Block Window",
+ "authors": [
+  "ash@burnt.com"
+ ],
+ "summary": "Lower the block signing window from 10k to 5k",
+ "details": "During periods of network congestion, we have been seeing a small subset of validators miss many blocks. We believe this has an impact on block timing. We intend to lower the block signing window from 10k to 5k to allow the network to recover more rapidly",
+ "proposal_forum_url": "none",
+ "vote_option_context": "Yes to shorten the window, No to keep it as is"
+}
