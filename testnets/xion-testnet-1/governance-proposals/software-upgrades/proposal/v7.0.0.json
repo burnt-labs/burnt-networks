@@ -6,7 +6,7 @@
       "plan": {
         "name": "v7.0.0",
         "height": "8457600",
-        "info": "Upgrade to v7.0.0 at block height 8455200; burntnetwork/xion:7.0.0",
+        "info": "Upgrade to v7.0.0 at block height 8457600; burntnetwork/xion:7.0.0",
         "upgraded_client_state": null
       }
     }
