@@ -1,0 +1,10 @@
+{
+  "title": "Software upgrade v0.3.9",
+  "authors": [
+    "daemon@burnt.com"
+  ],
+  "summary": "Software upgrade v0.3.9",
+  "details": "UUpgrade to v0.3.9 at block height 606689; burntnetwork/xion:0.3.9",
+  "proposal_forum_url": "",
+  "vote_option_context": ""
+}
