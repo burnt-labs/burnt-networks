@@ -8,8 +8,10 @@ Please include a detailed description of the changes being proposed in this pull
 
 ## Type of Change
 
-- [ ] New Validator
 - [ ] Governance Proposal
+- [ ] Software Upgrade
+- [ ] Parameter Change
+- [ ] New Validator
 - [ ] Bug fix
 - [ ] Documentation update
 - [ ] Tooling enhancement
@@ -17,15 +19,14 @@ Please include a detailed description of the changes being proposed in this pull
 ## Testing
 
 - [ ] I've read [CONTRIBUTING.md](../CONTRIBUTING.md)
-- [ ] I ran `make validate-genesis`
-- [ ] I ran `make verify-hashes`
 
 ## Additional Information
 
-Any additional information that you want to provide.
+Any additional context that you want to provide.
 
 ## Reviewers:
 
 /assign @froch
+/assign @2xburnt
 
 Thank you for supporting the Burnt Networks!
