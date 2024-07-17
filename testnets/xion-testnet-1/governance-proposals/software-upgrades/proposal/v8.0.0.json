@@ -5,7 +5,7 @@
       "authority": "xion10d07y265gmmuvt4z0w9aw880jnsr700jctf8qc",
       "plan": {
         "name": "v8.0.0",
-        "height": "8903000",
+        "height": "8903500",
         "info": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/testnets/xion-testnet-1/governance-proposals/software-upgrades/binaries/v8.0.0.json",
         "upgraded_client_state": null
       }
