@@ -1,0 +1,19 @@
+{
+  "title": "Mainnet launch / Globalfee Legacy parameter updates",
+  "description": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/mainnet/xion-mainnet-1/governance-proposals/update-parameters/metadata/003-globalfee-legacy.json",
+  "changes": [
+    {
+      "subspace": "globalfee",
+      "key": "BypassMinFeeMsgTypes",
+      "value": [
+        "/cosmos.authz.v1beta1.MsgRevoke",
+        "/cosmos.feegrant.v1beta1.MsgRevokeAllowance",
+        "/xion.jwk.v1.MsgDeleteAudience",
+        "/xion.jwk.v1.MsgDeleteAudienceClaim",
+        "/xion.v1.MsgMultiSend",
+        "/xion.v1.MsgSend"
+      ]
+    }
+  ],
+  "deposit": "1000000000uxion"
+}
