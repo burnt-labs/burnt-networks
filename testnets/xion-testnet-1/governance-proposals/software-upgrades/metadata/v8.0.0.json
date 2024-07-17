@@ -1,0 +1,10 @@
+{
+  "title": "Software Upgrade v8.0.0",
+  "authors": [
+    "daemon@burnt.com"
+  ],
+  "summary": "Software Upgrade v8.0.0",
+  "details": "Software Upgrade v8.0.0 at block height 8903500",
+  "proposal_forum_url": "",
+  "vote_option_context": "YES to approve the upgrade, NO to reject the upgrade."
+}
