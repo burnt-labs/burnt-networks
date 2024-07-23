@@ -1,5 +1,5 @@
 {
-  "$schema": "../../assetlist.schema.json",
-  "chain_name": "xiontestnet",
+  "$schema": "../assetlist.schema.json",
+  "chain_name": "xion",
   "assets": []
 }
