@@ -1,0 +1,173 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chain_name": "xion",
+  "chain_id": "xion-mainnet-1",
+  "pretty_name": "Xion Mainnet",
+  "website": "https://burnt.com",
+  "status": "upcoming",
+  "network_type": "mainnet",
+  "bech32_prefix": "xion",
+  "daemon_name": "xiond",
+  "node_home": "$HOME/.xiond",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uxion",
+        "fixed_min_gas_price": 0.025,
+        "low_gas_price": 0.025,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "uxion"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/burnt-labs/xion",
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/mainnets/xion-mainnet-1/genesis.json"
+    },
+    "versions": [
+      {
+        "name": "v0.3.7",
+        "tag": "v4.0.0",
+        "proposal": 18,
+        "height": 1,
+        "go_version": "1.21",
+        "cosmos_sdk_version": "0.47.10",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "0.45.0",
+        "ibc_go_version": "v7.3.1",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.37.4"
+        },
+        "binaries": {
+          "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v0.3.7/xiond-v0.3.7-linux-amd64:checksum=sha256:3d7626e971bf2ece28d4835d45ee6bd104a54ba6d652cd4982fc00ff8a6590de"
+        }
+      },
+      {
+        "name": "v0.3.9",
+        "tag": "v6.0.0",
+        "height": 7438800,
+        "proposal": 23,
+        "go_version": "1.21",
+        "cosmos_sdk_version": "0.47.10",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "0.45.1",
+        "ibc_go_version": "v7.4.0",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.37.4"
+        },
+        "binaries": {
+          "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v0.3.9/xiond-v0.3.9-linux-amd64:checksum=sha256:476abdd10b6bde0e81e14f4e6d67bf7eecfeee887879316153c72c01b80ccb98"
+        }
+      },
+      {
+        "name": "v7.0.0",
+        "tag": "v7.0.0",
+        "height": 8457600,
+        "proposal": 29,
+        "go_version": "1.21",
+        "cosmos_sdk_version": "0.47.10",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "0.45.0",
+        "ibc_go_version": "v7.4.0",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.37.4"
+        },
+        "binaries": {
+          "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v7.0.0/xiond-v7.0.0-linux-amd64:checksum=sha256:e7431453c3e7adadb7d75516d6cdc27e0ab4e9bdbdb620f7af4697a72c0c71bb"
+        }
+      },
+      {
+        "name": "v9",
+        "tag": "v9.0.0",
+        "height": 8983000,
+        "proposal": 40,
+        "go_version": "1.22",
+        "cosmos_sdk_version": "0.47.10",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "0.45.0",
+        "ibc_go_version": "v7.4.0",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.37.4"
+        },
+        "binaries": {
+          "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v9.0.0/xiond-v9.0.0-linux-amd64?checksum=sha256:dc25db91e7a3e9befbc1e96c76f6537461812466a28df9484d71838e7c4967f1"
+        }
+      }
+    ]
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "4f0fd0c68f4141886f2a306e6c64cb191d71ef78",
+        "address": "xion-mainnet-1.burnt.com:12656",
+        "provider": "burnt-labs"
+      }
+    ],
+    "persistent_peers": [
+      {
+        "id": "22371d31b93490e1d79899446e73839e9fd4c004",
+        "address": "xion-mainnet-1.burnt.com:42656",
+        "provider": "burnt-labs"
+      },
+      {
+        "id": "083eb4d9191e727e0fcce7a73e93863cc0f79fa5",
+        "address": "xion-mainnet-1.burnt.com:43656",
+        "provider": "burnt-labs"
+      },
+      {
+        "id": "eb183c6f9c1c44d3c9198415b84e43d74fe84c58",
+        "address": "xion-mainnet-1.burnt.com:44656",
+        "provider": "burnt-labs"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://xion-rpc.polkachu.com",
+        "provider": "polkachu"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://xion-api.polkachu.com",
+        "provider": "polkachu"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "xion-grpc.polkachu.com:22390",
+        "provider": "polkachu"
+      }
+    ]
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt.png"
+    }
+  ],
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt.png"
+  },
+  "keywords": [
+    "xion",
+    "burnt",
+    "mainnet"
+  ]
+}

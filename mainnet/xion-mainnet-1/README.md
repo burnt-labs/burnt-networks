@@ -1,4 +1,4 @@
-![Burnt banner](https://files.xion-testnet-1.burnt.com/banner.jpg)
+![Burnt banner](https://files.xion-mainnet-1.burnt.com/banner.jpg)
 
 # xion-mainnet-1
 
@@ -32,7 +32,7 @@ create_empty_blocks_interval = "0s"
 peer_gossip_sleep_duration = "100ms"
 peer_query_maj23_sleep_duration = "2s"
 ```
-    
+
 ## Host and IP inventory
 
 - Seed
