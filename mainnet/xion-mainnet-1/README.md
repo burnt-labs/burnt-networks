@@ -1,4 +1,4 @@
-![Burnt banner](https://files.xion-mainnet-1.burnt.com/banner.jpg)
+![Burnt banner](https://files.xion-testnet-1.burnt.com/banner.jpg)
 
 # xion-mainnet-1
 
