@@ -12,7 +12,7 @@
     }
   ],
   "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/mainnets/xion-mainnet-1/governance-proposals/software-upgrades/metadata/v9.json",
-  "deposit": "10000000uxion",
+  "deposit": "1000000000uxion",
   "title": "Software Upgrade v9",
   "summary": "Software Upgrade v9"
 }
