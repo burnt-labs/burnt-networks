@@ -1,0 +1,13 @@
+{
+  "messages": [
+    {
+      "@type": "/cosmwasm.wasm.v1.MsgPinCodes",
+      "authority": "xion10d07y265gmmuvt4z0w9aw880jnsr700jctf8qc",
+      "code_ids": [1]
+    }
+  ],
+  "title": "Pin CodeId 1 - Account contract",
+  "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/mainnet/xion-mainnet-1/governance-proposals/update-parameters/metadata/004-pin-code-id-1-account-contract.json",
+  "summary": "This proposal will pin the most commonly used contract on the Xion chain making it's use more efficient",
+  "deposit": "1000000000uxion"
+}
