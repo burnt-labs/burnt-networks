@@ -18,7 +18,7 @@ Please include a detailed description of the changes being proposed in this pull
 
 ## Testing
 
-- [ ] I've read [CONTRIBUTING.md](../CONTRIBUTING.md)
+- [ ] I've read [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## Additional Information
 
