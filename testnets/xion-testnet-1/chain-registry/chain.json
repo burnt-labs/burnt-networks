@@ -42,13 +42,13 @@
         "tag": "v1.0.0",
         "height": 1,
         "go_version": "1.19",
-        "cosmos_sdk_version": "0.47.0",
+        "cosmos_sdk_version": "v0.47.0",
         "cosmwasm_enabled": true,
-        "cosmwasm_version": "0.40.0-rc.0",
+        "cosmwasm_version": "v0.40.0-rc.0",
         "ibc_go_version": "v7.0.0",
         "consensus": {
           "type": "cometbft",
-          "version": "0.37.0"
+          "version": "v0.37.0"
         }
       },
       {
@@ -57,13 +57,13 @@
         "height": 1929544,
         "proposal": 4,
         "go_version": "1.19",
-        "cosmos_sdk_version": "0.47.3",
+        "cosmos_sdk_version": "v0.47.3",
         "cosmwasm_enabled": true,
-        "cosmwasm_version": "0.40.1",
+        "cosmwasm_version": "v0.40.1",
         "ibc_go_version": "v7.2.0",
         "consensus": {
           "type": "cometbft",
-          "version": "0.37.2"
+          "version": "v0.37.2"
         }
       },
       {
@@ -72,13 +72,13 @@
         "height": 2147030,
         "proposal": 7,
         "go_version": "1.19",
-        "cosmos_sdk_version": "0.47.3",
+        "cosmos_sdk_version": "v0.47.3",
         "cosmwasm_enabled": true,
-        "cosmwasm_version": "0.40.1",
+        "cosmwasm_version": "v0.40.1",
         "ibc_go_version": "v7.2.0",
         "consensus": {
           "type": "cometbft",
-          "version": "0.37.2"
+          "version": "v0.37.2"
         }
       },
       {
@@ -86,13 +86,13 @@
         "tag": "v3.1.1",
         "height": 3278095,
         "go_version": "1.19",
-        "cosmos_sdk_version": "0.47.5",
+        "cosmos_sdk_version": "v0.47.5",
         "cosmwasm_enabled": true,
-        "cosmwasm_version": "0.43.0",
+        "cosmwasm_version": "v0.43.0",
         "ibc_go_version": "v7.3.0",
         "consensus": {
           "type": "cometbft",
-          "version": "0.37.2"
+          "version": "v0.37.2"
         }
       },
       {
@@ -101,13 +101,13 @@
         "proposal": 18,
         "height": 6887750,
         "go_version": "1.21",
-        "cosmos_sdk_version": "0.47.10",
+        "cosmos_sdk_version": "v0.47.10",
         "cosmwasm_enabled": true,
-        "cosmwasm_version": "0.45.0",
+        "cosmwasm_version": "v0.45.0",
         "ibc_go_version": "v7.3.1",
         "consensus": {
           "type": "cometbft",
-          "version": "0.37.4"
+          "version": "v0.37.4"
         },
         "binaries": {
           "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v0.3.7/xiond-v0.3.7-linux-amd64:checksum=sha256:3d7626e971bf2ece28d4835d45ee6bd104a54ba6d652cd4982fc00ff8a6590de"
@@ -119,13 +119,13 @@
         "proposal": 19,
         "height": 7130100,
         "go_version": "1.21",
-        "cosmos_sdk_version": "0.47.10",
+        "cosmos_sdk_version": "v0.47.10",
         "cosmwasm_enabled": true,
-        "cosmwasm_version": "0.45.0",
+        "cosmwasm_version": "v0.45.0",
         "ibc_go_version": "v7.3.1",
         "consensus": {
           "type": "cometbft",
-          "version": "0.37.4"
+          "version": "v0.37.4"
         },
         "binaries": {
           "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v0.3.8/xiond-v0.3.8-linux-amd64:checksum=sha256:ef5112a6bb01e9dd297abf27ab423582004d3261f3300cef419937555bf8e281"
@@ -137,13 +137,13 @@
         "height": 7438800,
         "proposal": 23,
         "go_version": "1.21",
-        "cosmos_sdk_version": "0.47.10",
+        "cosmos_sdk_version": "v0.47.10",
         "cosmwasm_enabled": true,
-        "cosmwasm_version": "0.45.1",
+        "cosmwasm_version": "v0.45.1",
         "ibc_go_version": "v7.4.0",
         "consensus": {
           "type": "cometbft",
-          "version": "0.37.4"
+          "version": "v0.37.4"
         },
         "binaries": {
           "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v0.3.9/xiond-v0.3.9-linux-amd64:checksum=sha256:476abdd10b6bde0e81e14f4e6d67bf7eecfeee887879316153c72c01b80ccb98"
@@ -155,13 +155,13 @@
         "height": 8457600,
         "proposal": 29,
         "go_version": "1.21",
-        "cosmos_sdk_version": "0.47.10",
+        "cosmos_sdk_version": "v0.47.10",
         "cosmwasm_enabled": true,
-        "cosmwasm_version": "0.45.0",
+        "cosmwasm_version": "v0.45.0",
         "ibc_go_version": "v7.4.0",
         "consensus": {
           "type": "cometbft",
-          "version": "0.37.4"
+          "version": "v0.37.4"
         },
         "binaries": {
           "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v7.0.0/xiond-v7.0.0-linux-amd64:checksum=sha256:e7431453c3e7adadb7d75516d6cdc27e0ab4e9bdbdb620f7af4697a72c0c71bb"
@@ -173,13 +173,13 @@
         "height": 8903500,
         "proposal": 38,
         "go_version": "1.21",
-        "cosmos_sdk_version": "0.47.10",
+        "cosmos_sdk_version": "v0.47.10",
         "cosmwasm_enabled": true,
-        "cosmwasm_version": "0.45.0",
+        "cosmwasm_version": "v0.45.0",
         "ibc_go_version": "v7.4.0",
         "consensus": {
           "type": "cometbft",
-          "version": "0.37.4"
+          "version": "v0.37.4"
         },
         "compatible_versions": [
           "v8.0.0",
@@ -194,14 +194,14 @@
         "tag": "v9.0.0",
         "height": 8983000,
         "proposal": 40,
-        "go_version": "1.22",
-        "cosmos_sdk_version": "0.47.10",
+        "go_version": "1.21",
+        "cosmos_sdk_version": "v0.47.10",
         "cosmwasm_enabled": true,
-        "cosmwasm_version": "0.45.0",
+        "cosmwasm_version": "v0.45.0",
         "ibc_go_version": "v7.4.0",
         "consensus": {
           "type": "cometbft",
-          "version": "0.37.4"
+          "version": "v0.37.4"
         },
         "binaries": {
           "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v9.0.0/xiond-v9.0.0-linux-amd64?checksum=sha256:dc25db91e7a3e9befbc1e96c76f6537461812466a28df9484d71838e7c4967f1"
