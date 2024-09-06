@@ -191,7 +191,7 @@
       },
       {
         "name": "v9",
-        "tag": "v9.0.0",
+        "tag": "v9.0.1",
         "height": 8983000,
         "proposal": 40,
         "go_version": "1.21",
@@ -204,10 +204,24 @@
           "version": "v0.37.4"
         },
         "binaries": {
-          "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v9.0.0/xiond-v9.0.0-linux-amd64?checksum=sha256:dc25db91e7a3e9befbc1e96c76f6537461812466a28df9484d71838e7c4967f1"
+          "amd64": "https://github.com/burnt-labs/xion/releases/download/v9.0.1/xiond-linux-amd64?checksum=sha256:9c8bcbeb04463e2540fd886e7a7de25d874dcf416a94147b9cd1ad7ceb2c8587",
+          "arm64": "https://github.com/burnt-labs/xion/releases/download/v9.0.1/xiond-linux-arm64?checksum=sha256:1bfe7ad98216473a7ad8a82362dcaf44ca28232fc2bb248f8fcc3bca62eb13af"
         }
       },
       {
+        "name": "v10",
+        "tag": "v10.0.0",
+        "height": 9776000,
+        "proposal": 48,
+        "go_version": "1.22",
+        "cosmos_sdk_version": "v0.50.9",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "v0.53.0",
+        "ibc_go_version": "v8.5.0",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.38.12"
+        },
         "binaries": {
           "amd64": "https://github.com/burnt-labs/xion/releases/download/v10.0.0/xiond-linux-amd64?checksum=sha256:f26d439734f814212cc912ce474986835732b2151cf07ea3b4360f2b48e11e14",
           "arm64": "https://github.com/burnt-labs/xion/releases/download/v10.0.0/xiond-linux-arm64?checksum=sha256:da30cac6442a5fa418253bfd935c194c2ecabd5f541e2e85bc81e7945685da65"
