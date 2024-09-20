@@ -33,7 +33,7 @@
       }
     }
   ],
-  "metadata": "ipfs://CID",
+  "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/testnets/xion-testnet-1/governance-proposals/update-parameters/metadata/011_extend_voting_period.json",
   "deposit": "10000000uxion",
   "title": "Extend Testnet Voting Period",
   "summary": "Currently the voting period on testnet is 5 minutes. We intend to raise it to one hour in order to get more feedback from validators",
