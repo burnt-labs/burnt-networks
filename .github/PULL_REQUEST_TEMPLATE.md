@@ -26,7 +26,7 @@ Any additional context that you want to provide.
 
 ## Reviewers:
 
-/assign @froch
 /assign @2xburnt
+/assign @ash-burnt
 
 Thank you for supporting the Burnt Networks!
