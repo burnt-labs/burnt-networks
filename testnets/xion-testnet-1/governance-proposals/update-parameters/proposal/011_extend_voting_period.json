@@ -1,0 +1,41 @@
+{
+  "messages": [
+    {
+      "@type": "/cosmos.gov.v1.MsgUpdateParams",
+      "authority": "xion10d07y265gmmuvt4z0w9aw880jnsr700jctf8qc",
+      "params": {
+        "min_deposit": [
+          {
+            "denom": "uxion",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "10s",
+        "voting_period": "60m0s",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000",
+        "min_initial_deposit_ratio": "0.000000000000000000",
+        "proposal_cancel_ratio": "0.500000000000000000",
+        "proposal_cancel_dest": "",
+        "expedited_voting_period": "24h0m0s",
+        "expedited_threshold": "0.667000000000000000",
+        "expedited_min_deposit": [
+         {
+          "denom": "uxion",
+          "amount": "1000000000"
+         }
+        ],
+        "burn_vote_quorum": false,
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_veto": true,
+        "min_deposit_ratio": "0.010000000000000000"
+      }
+    }
+  ],
+  "metadata": "ipfs://CID",
+  "deposit": "10000000uxion",
+  "title": "Extend Testnet Voting Period",
+  "summary": "Currently the voting period on testnet is 5 minutes. We intend to raise it to one hour in order to get more feedback from validators",
+  "expedited": false
+}
