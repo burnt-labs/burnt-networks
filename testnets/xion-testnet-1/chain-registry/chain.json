@@ -226,6 +226,12 @@
           "amd64": "https://github.com/burnt-labs/xion/releases/download/v10.0.0/xiond-linux-amd64?checksum=sha256:04cb3814c75737a1b58ead5865ce631651a188f1c204282fb07361f7bd7e9afe",
           "arm64": "https://github.com/burnt-labs/xion/releases/download/v10.0.0/xiond-linux-arm64?checksum=sha256:da30cac6442a5fa418253bfd935c194c2ecabd5f541e2e85bc81e7945685da65"
         }
+      },
+      {
+        "binaries": {
+          "amd64": "https://github.com/burnt-labs/xion/releases/download/v11.0.0/xiond-linux-amd64?checksum=sha256:21148d39c8b318cc48d56fdb6450ee9e8e5af2c833f578848fc0f9643fd90b94",
+          "arm64": "https://github.com/burnt-labs/xion/releases/download/v11.0.0/xiond-linux-arm64?checksum=sha256:70305784ae9216d64e285512dfa6c597090fd591873cba796a8161d84fe3e582"
+        }
       }
     ]
   },
