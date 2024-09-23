@@ -1,0 +1,10 @@
+{
+ "title": "Extend Testnet Voting Period",
+ "authors": [
+  "ash@burnt.com"
+ ],
+ "summary": "Currently the voting period on testnet is 5 minutes. We intend to raise it to one hour in order to get more feedback from validators",
+ "details": ".",
+ "proposal_forum_url": ".",
+ "vote_option_context": "Yes to extend the voting period, no to leave it as is"
+}
