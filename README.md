@@ -113,8 +113,8 @@ docker compose up gentx
 
 The final step is to collect all `gentx` files and enshrine them to genesis.
 
-1. Configure the `collect-gentxs` bind mounts in `docker-compose.yaml`
+1. Configure the `collect-gentx` bind mounts in `docker-compose.yaml`
 2. Run the following command:
 ```bash
-docker compose up collect-gentxs
+docker compose up collect-gentx
 ```
