@@ -16,8 +16,8 @@
     "fee_tokens": [
       {
         "denom": "uxion",
-        "fixed_min_gas_price": 0.025,
-        "low_gas_price": 0.025,
+        "fixed_min_gas_price": 0.0,
+        "low_gas_price": 0.0,
         "average_gas_price": 0.025,
         "high_gas_price": 0.04
       }
@@ -40,6 +40,10 @@
         "name": "v0.1.0",
         "tag": "v1.0.0",
         "height": 1,
+        "cosmos_sdk_version": "v0.47.0",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "v0.40.0-rc.0",
+        "ibc_go_version": "v7.0.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.0"
@@ -67,6 +71,10 @@
         "tag": "v2.0.0",
         "height": 1929544,
         "proposal": 4,
+        "cosmos_sdk_version": "v0.47.3",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "v0.40.1",
+        "ibc_go_version": "v7.2.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.2"
@@ -93,6 +101,10 @@
         "tag": "v3.0.0",
         "height": 2147030,
         "proposal": 7,
+        "cosmos_sdk_version": "v0.47.3",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "v0.40.1",
+        "ibc_go_version": "v7.2.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.2"
@@ -118,6 +130,10 @@
         "name": "v0.3.4",
         "tag": "v3.1.1",
         "height": 3278095,
+        "cosmos_sdk_version": "v0.47.5",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "v0.43.0",
+        "ibc_go_version": "v7.3.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.2"
@@ -144,6 +160,10 @@
         "tag": "v4.0.0",
         "proposal": 18,
         "height": 6887750,
+        "cosmos_sdk_version": "v0.47.10",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "v0.45.0",
+        "ibc_go_version": "v7.3.1",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
@@ -173,6 +193,10 @@
         "tag": "v5.0.0",
         "proposal": 19,
         "height": 7130100,
+        "cosmos_sdk_version": "v0.47.10",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "v0.45.0",
+        "ibc_go_version": "v7.3.1",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
@@ -202,6 +226,10 @@
         "tag": "v6.0.0",
         "height": 7438800,
         "proposal": 23,
+        "cosmos_sdk_version": "v0.47.10",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "v0.45.1",
+        "ibc_go_version": "v7.4.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
@@ -231,6 +259,10 @@
         "tag": "v7.0.0",
         "height": 8457600,
         "proposal": 29,
+        "cosmos_sdk_version": "0.47.10",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "0.45.0",
+        "ibc_go_version": "v7.4.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
@@ -260,6 +292,10 @@
         "tag": "v8.0.1",
         "height": 8903500,
         "proposal": 38,
+        "cosmos_sdk_version": "0.47.10",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "0.45.0",
+        "ibc_go_version": "v7.4.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
@@ -290,6 +326,10 @@
         "tag": "v9.0.1",
         "height": 8983000,
         "proposal": 40,
+        "cosmos_sdk_version": "0.47.10",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "0.45.0",
+        "ibc_go_version": "v7.4.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
@@ -356,6 +396,10 @@
         "height": 9992000,
         "proposal": 53,
         "go_version": "v1.22",
+        "cosmos_sdk_version": "v0.50.10",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "v0.53.0",
+        "ibc_go_version": "v8.5.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.38.12"
@@ -389,6 +433,16 @@
         "id": "eb029462c82b46d842a47122d860617bff627fdf",
         "address": "xion-testnet-1.burnt.com:11656",
         "provider": "burnt-labs"
+      },
+      {
+        "id": "ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0",
+        "address": "testnet-seeds.polkachu.com:22356",
+        "provider": "polkachu"
+      },
+      {
+        "id": "69e1aa5800ffa82615986eac5f99b77c2b8f1ccb",
+        "address": "burnt-testnet-seed.itrocket.net:55656",
+        "provider": "ITRocket"
       }
     ],
     "persistent_peers": [
@@ -406,6 +460,11 @@
         "id": "f684e3873191d62a74e5431202581d99fe3439b7",
         "address": "xion-testnet-1.burnt.com:34656",
         "provider": "burnt-labs"
+      },
+      {
+        "id": "a386af218bd4e5d0a5f2dcfbcc1051eff63d059f",
+        "address": "burnt-testnet-peer.itrocket.net:55656",
+        "provider": "ITRocket"
       }
     ]
   },
@@ -418,6 +477,10 @@
       {
         "address": "https://xion-testnet-rpc.polkachu.com",
         "provider": "polkachu"
+      },
+      {
+        "address": "https://burnt-testnet-rpc.itrocket.net",
+        "provider": "ITRocket"
       }
     ],
     "rest": [
@@ -428,19 +491,45 @@
       {
         "address": "https://xion-testnet-api.polkachu.com",
         "provider": "polkachu"
+      },
+      {
+        "address": "https://burnt-testnet-api.itrocket.net",
+        "provider": "ITRocket"
       }
     ],
     "grpc": [
       {
-        "address": "https://testnet-burnt-grpc.lavenderfive.com",
+        "address": "testnet-burnt-grpc.lavenderfive.com:443",
         "provider": "Lavender.Five Nodes 🐝"
       },
       {
         "address": "xion-testnet-grpc.polkachu.com:22390",
         "provider": "polkachu"
+      },
+      {
+        "address": "burnt-testnet-grpc.itrocket.net:443",
+        "provider": "ITRocket"
       }
     ]
   },
+  "explorers": [
+    {
+      "url": "https://explorer.burnt.com/xion-testnet-1",
+      "tx_page": "https://explorer.burnt.com/xion-testnet-1/tx/${txHash}",
+      "account_page": "https://explorer.burnt.com/xion-testnet-1/account/${accountAddress}"
+    },
+    {
+      "url": "https://testnet.xion.explorers.guru",
+      "tx_page": "https://testnet.xion.explorers.guru/transaction/${txHash}",
+      "account_page": "https://testnet.xion.explorers.guru/account/${accountAddress}"
+    },
+    {
+      "kind": "ITRocket",
+      "url": "https://testnet.itrocket.net/burnt",
+      "tx_page": "https://testnet.itrocket.net/burnt/tx/${txHash}",
+      "account_page": "https://testnet.itrocket.net/burnt/account/${accountAddress}"
+    }
+  ],
   "images": [
     {
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt.png"
