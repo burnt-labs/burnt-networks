@@ -39,7 +39,8 @@
         "name": "v0.3.7",
         "tag": "v4.0.0",
         "proposal": 18,
-        "height": 6887750,
+        "height": 1,
+        "go_version": "v1.21",
         "cosmos_sdk_version": "v0.47.10",
         "cosmwasm_enabled": true,
         "cosmwasm_version": "v0.45.0",
@@ -71,8 +72,9 @@
       {
         "name": "v0.3.9",
         "tag": "v6.0.0",
-        "height": 7438800,
-        "proposal": 23,
+        "height": 606689,
+        "proposal": 1,
+        "go_version": "v1.21",
         "cosmos_sdk_version": "v0.47.10",
         "cosmwasm_enabled": true,
         "cosmwasm_version": "v0.45.1",
@@ -104,8 +106,8 @@
       {
         "name": "v7.0.0",
         "tag": "v7.0.0",
-        "height": 8457600,
-        "proposal": 29,
+        "height": 1637000,
+        "proposal": 2,
         "cosmos_sdk_version": "0.47.10",
         "cosmwasm_enabled": true,
         "cosmwasm_version": "0.45.0",
@@ -137,8 +139,8 @@
       {
         "name": "v9",
         "tag": "v9.0.1",
-        "height": 8983000,
-        "proposal": 40,
+        "height": 1960000,
+        "proposal": 5,
         "cosmos_sdk_version": "0.47.10",
         "cosmwasm_enabled": true,
         "cosmwasm_version": "0.45.0",
@@ -169,45 +171,10 @@
         }
       },
       {
-        "name": "v10",
-        "tag": "v10.0.0",
-        "height": 9776000,
-        "proposal": 48,
-        "go_version": "v1.22",
-        "cosmos_sdk_version": "v0.50.9",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "v0.53.0",
-        "ibc_go_version": "v8.5.0",
-        "consensus": {
-          "type": "cometbft",
-          "version": "v0.38.12"
-        },
-        "binaries": {
-          "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v10.0.0/xiond-linux-amd64?checksum=sha256:04cb3814c75737a1b58ead5865ce631651a188f1c204282fb07361f7bd7e9afe",
-          "linux/arm64": "https://github.com/burnt-labs/xion/releases/download/v10.0.0/xiond-linux-arm64?checksum=sha256:da30cac6442a5fa418253bfd935c194c2ecabd5f541e2e85bc81e7945685da65"
-        },
-        "sdk": {
-          "type": "cosmos",
-          "version": "v0.50.9"
-        },
-        "language": {
-          "type": "go",
-          "version": "v1.22"
-        },
-        "cosmwasm": {
-          "version": "v0.53.0",
-          "enabled": true
-        },
-        "ibc": {
-          "type": "go",
-          "version": "v8.5.0"
-        }
-      },
-      {
         "name": "v11",
         "tag": "v11.0.1",
-        "height": 9992000,
-        "proposal": 53,
+        "height": 3131464,
+        "proposal": 7,
         "go_version": "v1.22",
         "cosmos_sdk_version": "v0.50.10",
         "cosmwasm_enabled": true,
