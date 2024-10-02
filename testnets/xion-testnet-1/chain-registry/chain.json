@@ -431,6 +431,7 @@
         }
       },
       {
+<<<<<<< HEAD
         "name": "v12",
         "tag": "v12.0.0",
         "height": 10140000,
@@ -444,11 +445,14 @@
           "type": "cometbft",
           "version": "v0.38.12"
         },
+=======
+>>>>>>> main
         "binaries": {
           "darwin/amd64": "https://github.com/burnt-labs/xion/releases/download/v12.0.0/xiond-darwin-amd64?checksum=sha256:acb0c58abd1466353b909af7fe83d321a533e0f1407a8d4cffd69909ee558278",
           "darwin/arm64": "https://github.com/burnt-labs/xion/releases/download/v12.0.0/xiond-darwin-arm64?checksum=sha256:babcae4b7e10bbdf019632ab0d5820149566adb66bbab122119b05560c85fd59",
           "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v12.0.0/xiond-linux-amd64?checksum=sha256:b9c87313fe12c89648e1fefe929e771e98af25222306f9c736bf29750c12e436",
           "linux/arm64": "https://github.com/burnt-labs/xion/releases/download/v12.0.0/xiond-linux-arm64?checksum=sha256:c6f48600df450713874c0de05a94c2fbba0d4ffc8bcc725440187d7dc329cecc"
+<<<<<<< HEAD
         },
         "sdk": {
           "type": "cosmos",
@@ -467,6 +471,10 @@
           "version": "v8.5.1"
         }
       },
+=======
+        }
+      }
+>>>>>>> main
     ]
   },
   "peers": {
