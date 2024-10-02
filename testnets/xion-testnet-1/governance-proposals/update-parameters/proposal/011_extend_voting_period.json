@@ -11,14 +11,14 @@
           }
         ],
         "max_deposit_period": "10s",
-        "voting_period": "60m0s",
+        "voting_period": "24h0m0s",
         "quorum": "0.334000000000000000",
         "threshold": "0.500000000000000000",
         "veto_threshold": "0.334000000000000000",
         "min_initial_deposit_ratio": "0.000000000000000000",
         "proposal_cancel_ratio": "0.500000000000000000",
         "proposal_cancel_dest": "",
-        "expedited_voting_period": "24h0m0s",
+        "expedited_voting_period": "60m0s",
         "expedited_threshold": "0.667000000000000000",
         "expedited_min_deposit": [
          {
@@ -34,7 +34,7 @@
     }
   ],
   "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/testnets/xion-testnet-1/governance-proposals/update-parameters/metadata/011_extend_voting_period.json",
-  "deposit": "10000000uxion",
+  "deposit": "1000000000uxion",
   "title": "Extend Testnet Voting Period",
   "summary": "Currently the voting period on testnet is 5 minutes. We intend to raise it to one hour in order to get more feedback from validators",
   "expedited": false
