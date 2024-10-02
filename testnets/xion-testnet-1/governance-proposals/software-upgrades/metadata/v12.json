@@ -1,10 +1,10 @@
 {
- "title": "Software Upgrade v12",
- "authors": [
-  "ash@burnt.com"
- ],
- "summary": "Add the ibcwasm module",
- "details": " ",
- "proposal_forum_url": " ",
- "vote_option_context": "Vote yes to add the module, otherwise no to refuse it"
+    "title": "Software Upgrade v12",
+    "authors": [
+        "ash@burnt.com"
+    ],
+    "summary": "Add the ibcwasm module",
+    "details": " ",
+    "proposal_forum_url": " ",
+    "vote_option_context": "Vote yes to add the module, otherwise no to refuse it"
 }
