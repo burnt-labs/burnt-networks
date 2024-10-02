@@ -22,4 +22,10 @@ Please refer to the [official documentation](https://docs.burnt.com) for more de
 
 - https://uptime.burnt.com/status/testnet
 
+## Genesis
+
+### Genesis tools/info has been relocated here
+
+- https://github.com/burnt-labs/burnt-genesis
+
 ---
