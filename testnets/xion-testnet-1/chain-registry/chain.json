@@ -400,7 +400,7 @@
         "tag": "v11.0.1",
         "height": 9992000,
         "proposal": 53,
-        "go_version": "v1.22.4",
+        "go_version": "v1.22",
         "cosmos_sdk_version": "v0.50.10",
         "cosmwasm_enabled": true,
         "cosmwasm_version": "v0.53.0",
@@ -419,7 +419,7 @@
         },
         "language": {
           "type": "go",
-          "version": "v1.22.4"
+          "version": "v1.22"
         },
         "cosmwasm": {
           "version": "v0.53.0",
@@ -435,7 +435,7 @@
         "tag": "v12.0.0",
         "height": 10140000,
         "proposal": 54,
-        "go_version": "v1.22.7",
+        "go_version": "v1.22",
         "cosmos_sdk_version": "v0.50.10",
         "cosmwasm_enabled": true,
         "cosmwasm_version": "v0.53.0",
@@ -456,7 +456,7 @@
         },
         "language": {
           "type": "go",
-          "version": "v1.22.7"
+          "version": "v1.22"
         },
         "cosmwasm": {
           "version": "v0.53.0",
