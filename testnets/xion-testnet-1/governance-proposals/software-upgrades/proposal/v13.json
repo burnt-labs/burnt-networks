@@ -7,12 +7,13 @@
         "name": "v13",
         "height": "<TBD>",
         "info": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/testnets/xion-testnet-1/governance-proposals/software-upgrades/binaries/v13.json",
-        "upgraded_client_state": null
+        "upgraded_client_state": null,
+        "expedited": true
       }
     }
   ],
   "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/testnets/xion-testnet-1/governance-proposals/software-upgrades/metadata/v13.json",
-  "deposit": "10000000uxion",
+  "deposit": "1000000000uxion",
   "title": "Software Upgrade v13",
   "summary": "Software Upgrade v13"
 }
