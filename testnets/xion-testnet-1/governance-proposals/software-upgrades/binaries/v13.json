@@ -1,8 +1,8 @@
 {
   "binaries": {
-    "darwin/amd64": "https://github.com/burnt-labs/xion/releases/download/v13.0.0/xiond-darwin-amd64?checksum=sha256:741895d7e35b4db5148a0e5aedcf3f0170f04a4ed1f42917d17f722d54c3c154",
-    "darwin/arm64": "https://github.com/burnt-labs/xion/releases/download/v13.0.0/xiond-darwin-arm64?checksum=sha256:99882d9c4538c32c1bafe93af9190474b97b3678def2a26fadbd8aee88a16a94",
-    "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v13.0.0/xiond-linux-amd64?checksum=sha256:65c755dcc0136ab2ac22e065fa9b35b75e719642d2968874ac38e6f8acac0024",
-    "linux/arm64": "https://github.com/burnt-labs/xion/releases/download/v13.0.0/xiond-linux-arm64?checksum=sha256:35358069e660be01eed9a80ef6f92efda5dfdba62001751e95f3b6f7aec691ac"
+    "darwin/amd64": "https://github.com/burnt-labs/xion/releases/download/v13.0.1/xiond-darwin-amd64?checksum=sha256:82a0a47a824c8bf5a77d242626d9526457850111188aa06c2367d885d0844896",
+    "darwin/arm64": "https://github.com/burnt-labs/xion/releases/download/v13.0.1/xiond-darwin-arm64?checksum=sha256:46d597474e773371614ed021a13f2e9703c5d4313462c837dfa03f1192dfc191",
+    "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v13.0.1/xiond-linux-amd64?checksum=sha256:2d7583fd208e7f61a1e1f70a5212042510970f43bd72576e279f70c1f0b55423",
+    "linux/arm64": "https://github.com/burnt-labs/xion/releases/download/v13.0.1/xiond-linux-arm64?checksum=sha256:ccb6afe85eab6eacdf61268bd486e578ec556a8396a2e36b1b3dcbc3cef2b3c2"
   }
 }
