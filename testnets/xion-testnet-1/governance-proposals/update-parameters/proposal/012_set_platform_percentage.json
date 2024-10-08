@@ -1,0 +1,14 @@
+{
+ "messages": [
+  {
+   "@type": "/xion.v1.MsgSetPlatformPercentage",
+   "authority": "xion10d07y265gmmuvt4z0w9aw880jnsr700jctf8qc",
+   "platform_percentage": 200
+  }
+ ],
+ "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/testnets/xion-testnet-1/governance-proposals/update-parameters/metadata/012_set_platform_percentage.json",
+ "deposit": "1000000000uxion",
+ "title": "Set xion send platform percentage to 2%",
+ "summary": "Set xion send platform percentage to 2%",
+ "expedited": true
+}
