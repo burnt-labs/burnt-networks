@@ -11,6 +11,7 @@ Please include a detailed description of the changes being proposed in this pull
 - [ ] Governance Proposal
 - [ ] Software Upgrade
 - [ ] Parameter Change
+- [ ] Contract Upload
 - [ ] New Validator
 - [ ] Bug fix
 - [ ] Documentation update
