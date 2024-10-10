@@ -1,0 +1,27 @@
+{
+  "messages": [
+    {
+      "@type": "/cosmos.consensus.v1.MsgUpdateParams",
+      "authority": "xion10d07y265gmmuvt4z0w9aw880jnsr700jctf8qc",
+      "block": {
+        "max_bytes": "4194304",
+        "max_gas": "27182818"
+      },
+      "evidence": {
+        "maxAgeNumBlocks": "100000",
+        "maxAgeDuration": "172800s",
+        "maxBytes": "1048576"
+      },
+      "validator": {
+        "pubKeyTypes": [
+          "ed25519"
+        ]
+      }
+    }
+  ],
+  "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/testnets/xion-testnet-1/governance-proposals/update-parameters/metadata/013_stricter_consensus_params.json",
+  "deposit": "1000000000uxion",
+  "title": "Set a higher max block gas limit",
+  "summary": "We plan to raise the max block gas limit to ~27M in order to deploy the union ibc light client",
+  "expedited": true
+}
