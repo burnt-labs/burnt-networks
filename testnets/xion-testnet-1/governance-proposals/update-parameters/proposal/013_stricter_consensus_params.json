@@ -22,5 +22,6 @@
   "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/testnets/xion-testnet-1/governance-proposals/update-parameters/metadata/013_stricter_consensus_params.json",
   "deposit": "10000000uxion",
   "title": "Set a higher max block gas limit",
-  "summary": "We plan to raise the max block gas limit to ~27M in order to deploy the union ibc light client"
+  "summary": "We plan to raise the max block gas limit to ~27M in order to deploy the union ibc light client",
+  "expedited": true
 }
