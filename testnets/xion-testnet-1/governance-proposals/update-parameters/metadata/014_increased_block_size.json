@@ -1,0 +1,10 @@
+{
+ "title": "Increase max block gas limit",
+ "authors": [
+  "ash@burnt.com"
+ ],
+ "summary": "We plan to raise the max block gas limit to ~270M in order to facilitate larger contract govprops",
+ "details": "",
+ "proposal_forum_url": "none",
+ "vote_option_context": ""
+}
