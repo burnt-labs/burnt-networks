@@ -502,7 +502,7 @@
       {
         "name": "v14",
         "tag": "v14.0.0",
-        "height": 10155000,
+        "height": 10460000,
         "proposal": 64,
         "go_version": "v1.22",
         "cosmos_sdk_version": "v0.50.10",
