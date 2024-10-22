@@ -16,8 +16,8 @@
     "fee_tokens": [
       {
         "denom": "uxion",
-        "fixed_min_gas_price": 0,
-        "low_gas_price": 0,
+        "fixed_min_gas_price": 0.025,
+        "low_gas_price": 0.025,
         "average_gas_price": 0.025,
         "high_gas_price": 0.04
       }
@@ -40,10 +40,6 @@
         "name": "v0.1.0",
         "tag": "v1.0.0",
         "height": 1,
-        "cosmos_sdk_version": "v0.47.0",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "v0.40.0-rc.0",
-        "ibc_go_version": "v7.0.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.0"
@@ -71,10 +67,6 @@
         "tag": "v2.0.0",
         "height": 1929544,
         "proposal": 4,
-        "cosmos_sdk_version": "v0.47.3",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "v0.40.1",
-        "ibc_go_version": "v7.2.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.2"
@@ -101,10 +93,6 @@
         "tag": "v3.0.0",
         "height": 2147030,
         "proposal": 7,
-        "cosmos_sdk_version": "v0.47.3",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "v0.40.1",
-        "ibc_go_version": "v7.2.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.2"
@@ -130,10 +118,6 @@
         "name": "v0.3.4",
         "tag": "v3.1.1",
         "height": 3278095,
-        "cosmos_sdk_version": "v0.47.5",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "v0.43.0",
-        "ibc_go_version": "v7.3.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.2"
@@ -160,10 +144,6 @@
         "tag": "v4.0.0",
         "proposal": 18,
         "height": 6887750,
-        "cosmos_sdk_version": "v0.47.10",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "v0.45.0",
-        "ibc_go_version": "v7.3.1",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
@@ -193,10 +173,6 @@
         "tag": "v5.0.0",
         "proposal": 19,
         "height": 7130100,
-        "cosmos_sdk_version": "v0.47.10",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "v0.45.0",
-        "ibc_go_version": "v7.3.1",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
@@ -226,10 +202,6 @@
         "tag": "v6.0.0",
         "height": 7438800,
         "proposal": 23,
-        "cosmos_sdk_version": "v0.47.10",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "v0.45.1",
-        "ibc_go_version": "v7.4.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
@@ -259,10 +231,6 @@
         "tag": "v7.0.0",
         "height": 8457600,
         "proposal": 29,
-        "cosmos_sdk_version": "0.47.10",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "0.45.0",
-        "ibc_go_version": "v7.4.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
@@ -292,10 +260,6 @@
         "tag": "v8.0.1",
         "height": 8903500,
         "proposal": 38,
-        "cosmos_sdk_version": "0.47.10",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "0.45.0",
-        "ibc_go_version": "v7.4.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
@@ -326,10 +290,6 @@
         "tag": "v9.0.1",
         "height": 8983000,
         "proposal": 40,
-        "cosmos_sdk_version": "0.47.10",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "0.45.0",
-        "ibc_go_version": "v7.4.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
@@ -360,11 +320,6 @@
         "tag": "v10.0.0",
         "height": 9776000,
         "proposal": 48,
-        "go_version": "v1.22",
-        "cosmos_sdk_version": "v0.50.9",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "v0.53.0",
-        "ibc_go_version": "v8.5.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.38.12"
@@ -395,11 +350,6 @@
         "tag": "v11.0.1",
         "height": 9992000,
         "proposal": 53,
-        "go_version": "v1.22",
-        "cosmos_sdk_version": "v0.50.10",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "v0.53.0",
-        "ibc_go_version": "v8.5.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.38.12"
@@ -430,11 +380,6 @@
         "tag": "v12.0.1",
         "height": 10140000,
         "proposal": 56,
-        "go_version": "v1.22",
-        "cosmos_sdk_version": "v0.50.10",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "v0.53.0",
-        "ibc_go_version": "v8.5.1",
         "consensus": {
           "type": "cometbft",
           "version": "v0.38.12"
@@ -467,11 +412,6 @@
         "tag": "v13.0.1",
         "height": 10155000,
         "proposal": 57,
-        "go_version": "v1.22",
-        "cosmos_sdk_version": "v0.50.10",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "v0.53.0",
-        "ibc_go_version": "v8.5.1",
         "consensus": {
           "type": "cometbft",
           "version": "v0.38.12"
@@ -502,13 +442,8 @@
       {
         "name": "v14",
         "tag": "v14.0.0",
-        "height": 10460000,
+        "height": 10155000,
         "proposal": 64,
-        "go_version": "v1.22",
-        "cosmos_sdk_version": "v0.50.10",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "v0.53.0",
-        "ibc_go_version": "v8.5.1",
         "consensus": {
           "type": "cometbft",
           "version": "v0.38.12"
