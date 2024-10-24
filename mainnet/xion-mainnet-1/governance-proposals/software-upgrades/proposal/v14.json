@@ -15,5 +15,5 @@
   "deposit": "1000000000uxion",
   "title": "Software Upgrade v14",
   "summary": "Software Upgrade v14",
-  "expedited": false
+  "expedited": true
 }

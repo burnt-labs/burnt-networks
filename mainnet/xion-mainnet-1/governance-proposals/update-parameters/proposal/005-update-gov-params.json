@@ -7,7 +7,7 @@
         "min_deposit": [
           {
             "denom": "uxion",
-            "amount": "1000000000"
+            "amount": "500000000"
           }
         ],
         "max_deposit_period": "60m0s",
