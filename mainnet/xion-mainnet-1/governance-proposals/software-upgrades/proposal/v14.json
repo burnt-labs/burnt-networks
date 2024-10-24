@@ -1,0 +1,19 @@
+{
+  "messages": [
+    {
+      "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+      "authority": "xion10d07y265gmmuvt4z0w9aw880jnsr700jctf8qc",
+      "plan": {
+        "name": "v14",
+        "height": "3586500",
+        "info": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/mainnet/xion-mainnet-1/governance-proposals/software-upgrades/binaries/v14.json",
+        "upgraded_client_state": null
+      }
+    }
+  ],
+  "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/mainnet/xion-mainnet-1/governance-proposals/software-upgrades/metadata/v14.json",
+  "deposit": "1000000000uxion",
+  "title": "Software Upgrade v14",
+  "summary": "Software Upgrade v14",
+  "expedited": false
+}
