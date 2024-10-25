@@ -9,9 +9,7 @@
   "bech32_prefix": "xion",
   "daemon_name": "xiond",
   "node_home": "$HOME/.xiond",
-  "key_algos": [
-    "secp256k1"
-  ],
+  "key_algos": ["secp256k1"],
   "slip44": 118,
   "fees": {
     "fee_tokens": [
@@ -40,13 +38,7 @@
       {
         "name": "v0.3.7",
         "tag": "v4.0.0",
-        "proposal": 18,
         "height": 1,
-        "go_version": "v1.21",
-        "cosmos_sdk_version": "v0.47.10",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "v0.45.0",
-        "ibc_go_version": "v7.3.1",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
@@ -76,11 +68,6 @@
         "tag": "v6.0.0",
         "height": 606689,
         "proposal": 1,
-        "go_version": "v1.21",
-        "cosmos_sdk_version": "v0.47.10",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "v0.45.1",
-        "ibc_go_version": "v7.4.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
@@ -110,10 +97,6 @@
         "tag": "v7.0.0",
         "height": 1637000,
         "proposal": 2,
-        "cosmos_sdk_version": "0.47.10",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "0.45.0",
-        "ibc_go_version": "v7.4.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
@@ -143,10 +126,6 @@
         "tag": "v9.0.1",
         "height": 1960000,
         "proposal": 5,
-        "cosmos_sdk_version": "0.47.10",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "0.45.0",
-        "ibc_go_version": "v7.4.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
@@ -177,11 +156,6 @@
         "tag": "v11.0.1",
         "height": 3131464,
         "proposal": 7,
-        "go_version": "v1.22",
-        "cosmos_sdk_version": "v0.50.10",
-        "cosmwasm_enabled": true,
-        "cosmwasm_version": "v0.53.0",
-        "ibc_go_version": "v8.5.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.38.12"
@@ -208,11 +182,35 @@
         }
       },
       {
+        "name": "v14",
+        "tag": "v14.1.0",
+        "height": 3586500,
+        "proposal": 11,
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.38.12"
+        },
         "binaries": {
-          "darwin/amd64": "https://github.com/burnt-labs/xion/releases/download/v14.0.0/xiond-darwin-amd64?checksum=sha256:466b66e3b3d86dc1a6bc9f1c5d83fc7dcaf576016eac5fca07213779bc1c0238",
-          "darwin/arm64": "https://github.com/burnt-labs/xion/releases/download/v14.0.0/xiond-darwin-arm64?checksum=sha256:0432125102be511e45b36c9a6996bc249b5f1c02e88540ed57099a39c06883ef",
-          "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v14.0.0/xiond-linux-amd64?checksum=sha256:a505f8e6b3abe87c8d62ddb565330a28d2eded0b57f21e2c7f05fa780aa29fbc",
-          "linux/arm64": "https://github.com/burnt-labs/xion/releases/download/v14.0.0/xiond-linux-arm64?checksum=sha256:744337e1faa437649b14744379444d08d9837a4795f6c96e7cdad033e8c3111e"
+          "darwin/amd64": "https://github.com/burnt-labs/xion/releases/download/v14.1.0/xiond-darwin-amd64?checksum=sha256:4dd2606e06a5c54acdd117131a11b0885c2301140e2cb665422e315096c1e758",
+          "darwin/arm64": "https://github.com/burnt-labs/xion/releases/download/v14.1.0/xiond-darwin-arm64?checksum=sha256:db02033935ddb174ca2b496b545083e7dc0d598a7c4b274680693162581ae219",
+          "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v14.1.0/xiond-linux-amd64?checksum=sha256:cf265801603073b7d35524c816e8119797732d17f191748111baaa792e3c4d55",
+          "linux/arm64": "https://github.com/burnt-labs/xion/releases/download/v14.1.0/xiond-linux-arm64?checksum=sha256:c3c8ba0adb36e93d5a0fc39e9555e90016c422de74d5d744dd402ea115b68805"
+        },
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.50.10"
+        },
+        "language": {
+          "type": "go",
+          "version": "v1.22"
+        },
+        "cosmwasm": {
+          "version": "v0.53.0",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v8.5.1"
         }
       }
     ]
@@ -278,9 +276,5 @@
   "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt.png"
   },
-  "keywords": [
-    "xion",
-    "burnt",
-    "mainnet"
-  ]
+  "keywords": ["xion", "burnt", "mainnet"]
 }
