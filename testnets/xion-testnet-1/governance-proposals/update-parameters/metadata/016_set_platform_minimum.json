@@ -1,0 +1,10 @@
+{
+ "title": "Set xion send platform minimum to 0.01xion",
+ "authors": [
+  "ash@burnt.com"
+ ],
+ "summary": "Set xion send platform minimum to 0.01xion",
+ "details": ".",
+ "proposal_forum_url": ".",
+ "vote_option_context": "Yes to set the minimum, no to leave platform sends disabled"
+}
