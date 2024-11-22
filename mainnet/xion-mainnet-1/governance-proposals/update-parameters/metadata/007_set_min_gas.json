@@ -1,0 +1,10 @@
+{
+ "title": "Update minimum gas fee for globalfee module",
+ "authors": [
+  "ash@burnt.com"
+ ],
+ "summary": "Sets the minimum gas for non-whitelisted msgs",
+ "details": "Msgs the are not in the governance allowed whitelist will have their gas fee computed as the minimum value between the global fee module and the proposing validator's set gas",
+ "proposal_forum_url": ".",
+ "vote_option_context": "Vote yes to set the minimum gas fee, vote not to keep it empty"
+}

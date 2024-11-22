@@ -1,0 +1,21 @@
+{
+ "messages": [
+  {
+   "@type": "/xion.mint.v1.MsgUpdateParams",
+   "authority": "xion10d07y265gmmuvt4z0w9aw880jnsr700jctf8qc",
+   "params": {
+    "mint_denom": "",
+    "inflation_rate_change": "0.000000000000000000",
+    "inflation_max": "0.000000000000000000",
+    "inflation_min": "0.000000000000000000",
+    "goal_bonded": "0.000000000000000000",
+    "blocks_per_year": "0"
+   }
+  }
+ ],
+ "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/mainnets/xion-mainnet-1/governance-proposals/update-parameters/metadata/007_set_min_gas.json",
+ "deposit": "1000000000uxion",
+ "title": "Update minimum gas fee for globalfee module",
+ "summary": "Sets the minimum gas for non-whitelisted msgs",
+ "expedited": false
+}
