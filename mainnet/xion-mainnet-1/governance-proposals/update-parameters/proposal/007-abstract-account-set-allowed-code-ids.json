@@ -1,0 +1,24 @@
+{
+ "messages": [
+  {
+   "@type": "/abstractaccount.v1.MsgUpdateParams",
+   "sender": "xion10d07y265gmmuvt4z0w9aw880jnsr700jctf8qc",
+   "params": {
+    "allow_all_code_ids": false,
+    "allowed_code_ids": [5],
+    "max_gas_before": "5000000",
+    "max_gas_after": "5000000"
+   }
+  },
+  {
+   "@type": "/cosmwasm.wasm.v1.MsgPinCodes",
+   "authority": "xion10d07y265gmmuvt4z0w9aw880jnsr700jctf8qc",
+   "code_ids": [5]
+  }
+ ],
+ "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/mainnet/xion-mainnet-1/governance-proposals/update-parameters/metadata/007-abstract-account-set-allowed-code-ids.json",
+ "deposit": "1000000000uxion",
+ "title": "set account code id",
+ "summary": "seta account code id",
+ "expedited": true
+}
