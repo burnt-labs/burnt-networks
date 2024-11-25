@@ -1,6 +1,6 @@
 {
  "title": "Update minimum gas fee for globalfee module",
- "description": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/mainnets/xion-mainnet-1/governance-proposals/update-parameters/metadata/007_set_min_gas.json",
+ "description": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/mainnets/xion-mainnet-1/governance-proposals/update-parameters/metadata/008_set_min_gas.json",
  "changes": [
   {
    "subspace": "globalfee",
