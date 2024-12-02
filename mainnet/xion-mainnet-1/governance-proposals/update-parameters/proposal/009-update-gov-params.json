@@ -37,5 +37,5 @@
   "deposit": "1000000000uxion",
   "title": "Extend Mainnet Expedited Voting Period",
   "summary": "Currently the expedited voting period is one hour, which is hard to react to. We intend to raise it to 6 hours",
-  "expedited": false
+  "expedited": true
 }
