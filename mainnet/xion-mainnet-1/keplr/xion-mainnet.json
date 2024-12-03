@@ -3,12 +3,12 @@
   "rest": "https://api.xion-mainnet-1.burnt.com/",
   "chainId": "xion-mainnet-1",
   "chainName": "Xion",
-  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xion-testnet/chain.png",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xion-mainnet/chain.png",
   "stakeCurrency": {
     "coinDenom": "XION",
     "coinMinimalDenom": "uxion",
     "coinDecimals": 6,
-    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xion-testnet/chain.png"
+    "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/xion-mainnet/chain.png"
   },
   "bip44": {
     "coinType": 118
