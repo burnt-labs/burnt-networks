@@ -9,7 +9,9 @@
   "bech32_prefix": "xion",
   "daemon_name": "xiond",
   "node_home": "$HOME/.xiond",
-  "key_algos": ["secp256k1"],
+  "key_algos": [
+    "secp256k1"
+  ],
   "slip44": 118,
   "fees": {
     "fee_tokens": [
@@ -221,6 +223,11 @@
         "id": "4f0fd0c68f4141886f2a306e6c64cb191d71ef78",
         "address": "xion-mainnet-1.burnt.com:12656",
         "provider": "burnt-labs"
+      },
+      {
+        "id": "20e1000e88125698264454a884812746c2eb4807",
+        "address": "seeds.lavenderfive.com:22356",
+        "provider": "lavenderfive"
       }
     ],
     "persistent_peers": [
@@ -244,17 +251,53 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://rpc.xion-mainnet-1.burnt.com",
+        "provider": "burnt-labs"
+      },
+      {
+        "address": "https://xion-rpc.lavenderfive.com",
+        "provider": "lavenderfive"
+      },
+      {
+        "address": "https://rpc-burnt.imperator.co/",
+        "provider": "imperator"
+      },
+      {
         "address": "https://xion-rpc.polkachu.com",
         "provider": "polkachu"
       }
     ],
     "rest": [
       {
+        "address": "https://api.xion-mainnet-1.burnt.com",
+        "provider": "burnt-labs"
+      },
+      {
+        "address": "https://xion-api.lavenderfive.com",
+        "provider": "lavenderfive"
+      },
+      {
+        "address": "https://lcd-burnt.imperator.co/",
+        "provider": "imperator"
+      },
+      {
         "address": "https://xion-api.polkachu.com",
         "provider": "polkachu"
       }
     ],
     "grpc": [
+      {
+        "address": "grpc.xion-mainnet-1.burnt.com:443",
+        "provider": "burnt-labs"
+      },
+      {
+        "address": "xion-grpc.lavenderfive.com:443",
+        "provider": "lavenderfive"
+      },
+      {
+        "address": "grpc-xion.imperator.co:443",
+        "provider": "imperator"
+      },
       {
         "address": "xion-grpc.polkachu.com:22390",
         "provider": "polkachu"
@@ -276,5 +319,9 @@
   "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt.png"
   },
-  "keywords": ["xion", "burnt", "mainnet"]
+  "keywords": [
+    "xion",
+    "burnt",
+    "mainnet"
+  ]
 }
