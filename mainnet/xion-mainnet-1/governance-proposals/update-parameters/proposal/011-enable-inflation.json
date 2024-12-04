@@ -1,0 +1,21 @@
+{
+ "messages": [
+  {
+   "@type": "/xion.mint.v1.MsgUpdateParams",
+   "authority": "xion10d07y265gmmuvt4z0w9aw880jnsr700jctf8qc",
+   "params": {
+    "mint_denom": "uxion",
+    "inflation_rate_change": "0.130000000000000000",
+    "inflation_max": "0.420000000000000000",
+    "inflation_min": "0.100000000000000000",
+    "goal_bonded": "0.670000000000000000",
+    "blocks_per_year": "6311520"
+   }
+  }
+ ],
+ "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/mainnet/xion-mainnet-1/governance-proposals/update-parameters/metadata/011-enable-inflation.json",
+ "deposit": "1000000000uxion",
+ "title": "Enable Inflation",
+ "summary": "Inflation has been disabled in the stealth mainnet. This proposal enables it, at an initial rate of 42.0%",
+ "expedited": false
+}
