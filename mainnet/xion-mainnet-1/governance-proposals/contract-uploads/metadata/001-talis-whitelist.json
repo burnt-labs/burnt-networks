@@ -3,7 +3,7 @@
  "authors": [
   "ash@burnt.com"
  ],
- "summary": "Deploy Talis Whitelist, Stakling, Frens Proxy and Trading Escrow contracts",
+ "summary": "Deploy Talis Whitelist, Staking, Frens Proxy and Trading Escrow contracts",
  "details": ".",
  "proposal_forum_url": ".",
  "vote_option_context": "Vote yes to deploy, no to deny"
