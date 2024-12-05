@@ -25,7 +25,7 @@
    "instantiate_permission": null
   }
  ],
- "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/mainnet/xion-mainnet-1/governance-proposals/contract-uploads/metadata/001-talis-whitelist.json",
+ "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/mainnet/xion-mainnet-1/governance-proposals/contract-uploads/metadata/001-talis-contracts.json",
  "deposit": "5000000000uxion",
  "title": "Deploy Talis Contracts",
  "summary": "Deploy Talis Whitelist, Staking, Frens Proxy and Trading Escrow contracts",
