@@ -14,8 +14,8 @@
   }
  ],
  "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/mainnet/xion-mainnet-1/governance-proposals/update-parameters/metadata/011-enable-inflation.json",
- "deposit": "1000000000uxion",
+ "deposit": "5000000000uxion",
  "title": "Enable Inflation",
  "summary": "Inflation has been disabled in the stealth mainnet. This proposal enables it, at an initial rate of 42.0%",
- "expedited": false
+ "expedited": true
 }
