@@ -1,0 +1,20 @@
+{
+ "messages": [
+  {
+   "@type": "/cosmwasm.wasm.v1.MsgUpdateParams",
+   "authority": "xion10d07y265gmmuvt4z0w9aw880jnsr700jctf8qc",
+   "params": {
+    "code_upload_access": {
+     "permission": "Nobody",
+     "addresses": []
+    },
+    "instantiate_default_permission": "Everybody"
+   }
+  }
+ ],
+ "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/mainnet/xion-mainnet-1/governance-proposals/update-parameters/metadata/010-permissioned-uploads.json",
+ "deposit": "5000000000uxion",
+ "title": "Set Permissioned Contract Upload",
+ "summary": "New cosmwasm contract uploads will need to achieve governance consensus",
+ "expedited": true
+}
