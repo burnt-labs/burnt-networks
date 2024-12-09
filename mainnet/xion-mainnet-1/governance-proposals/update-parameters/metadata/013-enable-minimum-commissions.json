@@ -1,0 +1,10 @@
+{
+ "title": "Set minimum commissions",
+ "authors": [
+  "ash@burnt.com"
+ ],
+ "summary": "Set minimum validator delegation commissions % XIONwide",
+ "details": "This proposal will set the delegation commissions to 5%",
+ "proposal_forum_url": ".",
+ "vote_option_context": "Vote yes to enable minimum commissions at 5%, vote no to leave at 0%"
+}

@@ -1,0 +1,21 @@
+{
+ "messages": [
+  {
+   "@type": "/cosmos.staking.v1beta1.MsgUpdateParams",
+   "authority": "xion10d07y265gmmuvt4z0w9aw880jnsr700jctf8qc",
+   "params": {
+    "unbonding_time": "504h0m0s",
+    "max_validators": 35,
+    "max_entries": 7,
+    "historical_entries": 10000,
+    "bond_denom": "uxion",
+    "min_commission_rate": "0.050000000000000000"
+   }
+  }
+ ],
+ "metadata": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/mainnet/xion-mainnet-1/governance-proposals/update-parameters/metadata/013-enable-minimum-commissions.json",
+ "deposit": "1000000000uxion",
+ "title": "Set minimum commissions",
+ "summary": "Set minimum validator delegation commissions % XIONwide",
+ "expedited": false
+}
