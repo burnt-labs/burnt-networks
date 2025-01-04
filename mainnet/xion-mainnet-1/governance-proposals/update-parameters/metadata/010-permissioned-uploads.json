@@ -1,0 +1,10 @@
+{
+ "title": "Set Permissioned Contract Upload",
+ "authors": [
+  "ash@burnt.com"
+ ],
+ "summary": "New cosmwasm contract uploads will need to achieve governance consensus",
+ "details": "New cosmwasm contract uploads will need to achieve governance consensus",
+ "proposal_forum_url": ".",
+ "vote_option_context": "Vote yes to enabled permissioned upload, vote no to leave as current, permissionless"
+}
