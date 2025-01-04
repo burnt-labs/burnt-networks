@@ -29,3 +29,4 @@ Please refer to the [official documentation](https://docs.burnt.com) for more de
 - https://github.com/burnt-labs/burnt-genesis
 
 ---
+# assets
