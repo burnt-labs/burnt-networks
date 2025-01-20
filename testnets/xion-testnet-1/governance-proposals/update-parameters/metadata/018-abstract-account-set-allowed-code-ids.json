@@ -1,0 +1,10 @@
+{
+    "title": "Add new account code id",
+    "authors": [
+        "nicolas@abstract.money"
+    ],
+    "summary": "Change registered Code Id to be able to instantiate new accounts using instantiate and reduce the XION API changes",
+    "details": "add new account code id",
+    "proposal_forum_url": "nil",
+    "vote_option_context": "yes to accept, no to deny"
+}
