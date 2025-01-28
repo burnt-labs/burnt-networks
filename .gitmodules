@@ -1,0 +1,4 @@
+[submodule "testnets/xion-testnet-2"]
+	path = testnets/xion-testnet-2
+	url = https://github.com/burnt-labs/xion-testnet-2.git
+	brannch = main
