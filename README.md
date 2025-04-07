@@ -1,32 +1,10 @@
-![Burnt banner](https://files.xion-testnet-1.burnt.com/banner.jpg)
-
 # burnt-networks
 
-Reference config for all Burnt networks.
+**This repository is archived.** Please use the individual repositories for network configurations.
+
+-   Mainnet: [xion-mainnet-1](https://github.com/burnt-labs/xion-mainnet-1)
+-   Testnet: [xion-testnet-2](https://github.com/burnt-labs/xion-testnet-2)
+
+xion-testnet-1 is retired.
 
 Please refer to the [official documentation](https://docs.burnt.com) for more details.
-
-## Mainnet
-
-- [xion-mainnet-1](./mainnet/xion-mainnet-1/)
-
-### Mainnet Status page
-
-- Coming soon!
-
-## Testnets
-
-- [xion-testnet-1](./testnets/xion-testnet-1/)
-
-### Testnet Status page
-
-- https://uptime.burnt.com/status/testnet
-
-## Genesis
-
-### Genesis tools/info has been relocated here
-
-- https://github.com/burnt-labs/burnt-genesis
-
----
-# assets
