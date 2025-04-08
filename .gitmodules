@@ -1,4 +1,7 @@
 [submodule "testnets/xion-testnet-2"]
-	path = testnets/xion-testnet-2
+	path = xion-testnet-2
 	url = https://github.com/burnt-labs/xion-testnet-2.git
 	brannch = main
+[submodule "xion-mainnet-1"]
+	path = xion-mainnet-1
+	url = git@github.com:burnt-labs/xion-mainnet-1.git
