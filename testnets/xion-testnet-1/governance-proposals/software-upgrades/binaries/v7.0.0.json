@@ -1,5 +1,0 @@
-{
-  "binaries": {
-    "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v7.0.0/xiond-v7.0.0-linux-amd64:checksum=sha256:e7431453c3e7adadb7d75516d6cdc27e0ab4e9bdbdb620f7af4697a72c0c71bb"
-  }
-}
